@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Gloucester.png",
+      "filename" : "Gloucester City.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Gloucester@2x.png",
+      "filename" : "Gloucester City@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Gloucester@3x.png",
+      "filename" : "Gloucester City@3x.png",
       "scale" : "3x"
     }
   ],

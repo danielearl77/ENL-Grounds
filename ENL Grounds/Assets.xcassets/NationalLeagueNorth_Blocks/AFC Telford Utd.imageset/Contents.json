@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Telford.png",
+      "filename" : "AFC Telford Utd.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Telford@2x.png",
+      "filename" : "AFC Telford Utd@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Telford@3x.png",
+      "filename" : "AFC Telford Utd@3x.png",
       "scale" : "3x"
     }
   ],

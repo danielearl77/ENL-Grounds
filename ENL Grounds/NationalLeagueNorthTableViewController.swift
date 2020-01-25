@@ -31,8 +31,8 @@ class NationalLeagueNorthTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NorthTeams", for: indexPath)
         cell.textLabel?.text = Teams[indexPath.row]
-        //let teamIcon: UIImage=UIImage(named: cell.textLabel!.text!)!
-        //cell.imageView!.image=teamIcon
+        let teamIcon: UIImage=UIImage(named: cell.textLabel!.text!)!
+        cell.imageView!.image=teamIcon
         return cell
     }
     

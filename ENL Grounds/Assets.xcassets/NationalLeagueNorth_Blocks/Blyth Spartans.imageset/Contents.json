@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Blyth.png",
+      "filename" : "Blyth Spartans.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Blyth@2x.png",
+      "filename" : "Blyth Spartans@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Blyth@3x.png",
+      "filename" : "Blyth Spartans@3x.png",
       "scale" : "3x"
     }
   ],
