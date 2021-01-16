@@ -37,7 +37,7 @@ class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
         let extras = GADExtras()
         extras.additionalParameters = ["npa": "1"]
         request.register(extras)
-        AdViewBox.adUnitID = "ca-app-pub-1798485712270431/1250245257"
+        AdViewBox.adUnitID = "ca-app-pub-"
         AdViewBox.rootViewController = self
         AdViewBox.load(request)
         // Do any additional setup after loading the view.
