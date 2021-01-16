@@ -27,24 +27,21 @@ class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
         byTrain.sizeToFit()
         byDrink.text = drinkInfo
         byDrink.sizeToFit()
+        byDrink.textContainerInset = UIEdgeInsets(top: 8,left: 0,bottom: 50,right: 0)
     }
     
     override func viewDidLoad() {
         loadTeamInfo()
+        AdViewBox.isHidden = true
         super.viewDidLoad()
         AdViewBox.delegate = self
-        let request = GADRequest()
-        let extras = GADExtras()
-        extras.additionalParameters = ["npa": "1"]
-        request.register(extras)
         AdViewBox.adUnitID = "ca-app-pub-"
         AdViewBox.rootViewController = self
-        AdViewBox.load(request)
+        AdViewBox.load(GADRequest())
         // Do any additional setup after loading the view.
     }
     
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("adViewDidReceiveAd")
         if (AdViewBox.isHidden) {
             AdViewBox.isHidden = false
         }
@@ -52,7 +49,7 @@ class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
     
     func adView(_ bannerView: GADBannerView,
                 didFailToReceiveAdWithError error: GADRequestError) {
-        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        NSLog("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
         AdViewBox.isHidden = true
     }
 }
