@@ -102,14 +102,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Halifax Station and turn left into Church Street, keep walking straight on passing the Three Pigeons Pub. The ground is on the right."
             teamDrinkInfo = "The South Stand Bar supports club at the ground admits away fans, but only has a 200 capacity. The Three Pigeons is the closest pub to the ground on Sun Fold Road. Otherwise there are plenty of options for food and drink in the Town Centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/halifax/scores-fixtures"
-        } else if teamName == "Hartlepool Utd" {
-            stationCode = "HPL"
-            stadiumLat = 54.68957
-            stadiumLon = -1.21360
-            teamCarInfo = "Sat Nav Postcode: TS24 8BZ\n\nLeave the A19 and take the A179 towards Hartlepool.  At third roundabout turn right onto Easington Road.  Follow the signs for Town Centre A179 over two roundabouts.  At third roundabout turn right onto Marina Way.  At the next roundabout turn right, and then left at the lights into Clarence Road for the ground."
-            teamTrainInfo = "From Hartlepool Station walk down Station Approach to Church Street.  Turn right onto Church Street, go over the roundabout and then cross over the dual carriageway into Clarence Road.  Follow Clarence Road to the ground."
-            teamDrinkInfo = "The 'Corner Flag Supporters Bar' on the corner at the away end admits away fans (for a small charge).  A popular pub with away fans is the Jackson's Wharf pub, across the road from Asda, near to the ground."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/hartlepool-united/scores-fixtures"
+        } else if teamName == "Grimsby Town" {
+            stationCode = "CLE"
+            stadiumLat = 53.570247
+            stadiumLon = -0.046709
+            teamCarInfo = "Sat Nav Postcode: DN35 7PY\n\nFrom the North take the M180 to Grimsby, and continue onto the A180, once in Grimsby stay on the A180 and follow the signs to Cleethorpes. When you reach the Blundell Park Hotel turn left into Imperial Avenue for the ground.\n\nFrom the south take the A1 North and exit  onto the A46 to Lincoln and onto Grimsby. Stay on the A46 until it becomes Clee Road and at the roundabout turn left onto the A180. Continue on the A180 until you reach the Blundell Park Hotel and then turn right into Imperial Avenue for the ground.\n\nThere is plenty of on street parking in the area."
+            teamTrainInfo = "Take the train to Cleethorpes and exit the station facing the sea. Turing left, walk along the seafront and just before you reach the ground there is a footbridge over the railway line, once over the railway turn right into Harrington Street and then left into Neville Street for the ground."
+            teamDrinkInfo = "The Blundell Park Hotel is the closest pub to the ground. There are also a number of pubs along the seafront if you are walking from Cleethorpes railway station."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/grimsby-town/scores-fixtures"
         } else if teamName == "Kings Lynn Town" {
             stationCode = "KLN"
             stadiumLat = 52.750118
@@ -150,6 +150,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Solihull Railway Station is over two miles from the ground so the best option is get the train to Birmingham International and the get the X12 bus towards Solihull. The X12 leaves from bus stop SB at the station, and you need to get off the bus at the Land Rover Works entrance on the Damson Parkway - Damson Lane roundabout. Once off the bus the ground is a two-minute walk up Damson Parkway."
             teamDrinkInfo = "There is a Club House at the ground which admits away fans. There is also a Holiday Inn by the Birmingham Freight Cargo Terminal which has a bar. Otherwise there is not really any other options near to the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/solihull-moors/scores-fixtures"
+        } else if teamName == "Southend Utd" {
+            stationCode = "PRL"
+            stadiumLat = 51.5492654
+            stadiumLon = 0.7020663
+            teamCarInfo = "Sat Nav Postcode: SS2 6NQ\n\nLeave the M25 at Junction 29 onto the A127 towards Southend. Follow signs towards Central Southend, carry on past the Bell Pub and at the next roundabout take the third exit into Victoria Avenue. The ground is on the right hand side just past the next set of traffic lights."
+            teamTrainInfo = "Take the train to Prittlewell, and exit the Station onto East Street. Turn right at the junction with Victoria Avenue and the ground is on the left hand side.  To get to the away turnstiles walk down Victoria Avenue past the main entrance and turn left into Fairfax Drive. The away entrance is on the left."
+            teamDrinkInfo = "The only real option for away fans is the Railway Tavern outside Prittlewell Railway Station.\n\nAlcohol is not available to away fans inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southend-united/scores-fixtures"
         } else if teamName == "Stockport County" {
             stationCode = "SPT"
             stadiumLat = 53.39992
@@ -158,14 +166,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Stockport Station and turn left walking up Station Road.  Continue up the hill towards the roundabout, go straight over and then turn left into Caroline Street for the ground."
             teamDrinkInfo = "Closest to the ground there is a small Labour Club by the entrance to the Railway End that allows visitors in for a small entrance fee. Otherwise there are a number of pubs along the shopping area across the main road from the Away End."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/stockport-county/scores-fixtures"
-        } else if teamName == "Sutton Utd" {
-            stationCode = "WSU"
-            stadiumLat = 51.36759
-            stadiumLon = -0.20429
-            teamCarInfo = "Sat Nav Postcode: SM1 2EY\n\nLeave the M25 at Junction 8 and take the A217 towards Sutton. When you reach a small roundabout, bear left continuing on the A217 towards Central London. At the second set of traffic lights turn right into Gander Green Lane. The ground is up here on the left."
-            teamTrainInfo = "Exit West Sutton Railway Station and turn right. The ground is on the right about two minutes away."
-            teamDrinkInfo = "At the ground there is a Social Club which admits away fans, and on the A217 you will find the Gander Pub. Otherwise there are several pubs in Sutton town centre."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sutton-united/scores-fixtures"
         } else if teamName == "Torquay Utd" {
             stationCode = "TRR"
             stadiumLat = 50.47681
