@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "NLS-Btn.png",
+      "filename" : "NLSButton.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "NLS-Btn@2x.png",
+      "filename" : "NLSButton@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "NLS-Btn@3x.png",
+      "filename" : "NLSButton@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

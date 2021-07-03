@@ -22,13 +22,13 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA0-sD-g91">
                                 <rect key="frame" x="72.666666666666686" y="326" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117647058818" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="9FE-re-TSj"/>
                                     <constraint firstAttribute="width" constant="230" id="Jbw-Qq-LEn"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="NLButton">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="XZt-lb-xiV" kind="show" id="nqt-Be-Orz"/>
@@ -36,13 +36,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chy-Cf-8Lc">
                                 <rect key="frame" x="72.666666666666686" y="386" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="mV8-u0-SFs"/>
                                     <constraint firstAttribute="width" constant="230" id="wp8-gh-RA9"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="NLSButton">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="7et-H3-gVY" kind="show" id="38e-1A-yw3"/>
@@ -50,13 +50,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtW-fK-vmW">
                                 <rect key="frame" x="72.666666666666686" y="446" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6oW-x2-iD7"/>
                                     <constraint firstAttribute="width" constant="230" id="tdD-XZ-HiG"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="NLNButton">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="qdQ-ew-4Re" kind="show" id="p5E-xa-zCh"/>
@@ -273,7 +273,7 @@
                                     <constraint firstItem="CWc-At-i5D" firstAttribute="leading" secondItem="sSY-kl-lf4" secondAttribute="leading" id="6Ai-Lf-sxD"/>
                                     <constraint firstItem="VmZ-uc-qaP" firstAttribute="leading" secondItem="iug-6T-ROm" secondAttribute="leading" id="As8-kI-6l6"/>
                                     <constraint firstItem="iug-6T-ROm" firstAttribute="leading" secondItem="CZt-7e-C3C" secondAttribute="leading" id="CB3-aT-P0G"/>
-                                    <constraint firstAttribute="bottom" secondItem="CZt-7e-C3C" secondAttribute="bottom" constant="406" id="CDJ-yZ-IRx"/>
+                                    <constraint firstAttribute="bottom" secondItem="CZt-7e-C3C" secondAttribute="bottom" constant="40" id="CDJ-yZ-IRx"/>
                                     <constraint firstItem="sSY-kl-lf4" firstAttribute="trailing" secondItem="8dv-65-K00" secondAttribute="trailing" id="CHK-Ng-r0a"/>
                                     <constraint firstItem="iug-6T-ROm" firstAttribute="trailing" secondItem="CZt-7e-C3C" secondAttribute="trailing" id="CUp-Pf-Ss1"/>
                                     <constraint firstItem="8dv-65-K00" firstAttribute="top" secondItem="sSY-kl-lf4" secondAttribute="bottom" constant="15" id="CfO-XC-JSZ"/>
@@ -416,7 +416,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCy-Pc-UHa">
                                 <rect key="frame" x="10" y="108" width="355" height="650"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Non League Ground Guide.
+                                <mutableString key="text">Non League Ground Guide.
 A fan travel guide to all 67 English Non League grounds.
 
 This app aims to provide travel information for fans travelling to Non League matches in England.  It covers the National Leauge, National League North, and National League South.    
@@ -436,7 +436,7 @@ www.phone-app.co.uk
 
 To get in touch please use the contact form on the website.
 
-© 2012-2020.</string>
+© 2012-2021.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -537,7 +537,7 @@ To get in touch please use the contact form on the website.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BCj-L2-rhy"/>
+        <segue reference="pwI-0q-YOm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="NLButton" width="230" height="40"/>

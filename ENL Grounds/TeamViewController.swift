@@ -118,14 +118,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit the station and turn left. Where you see the church in front of you take the pathway around to the left and walk through the park. The ground is over on your right."
             teamDrinkInfo = "There is a bar inside the ground which admits away fans. Otherwise there is the Live and Let live on Windsor Road and Lord Napier on Guanock Terrace. There is also a Wetherspoons pub in the town centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/kings-lynn-town/scores-fixtures"
-        } else if teamName == "Macclesfield Town" {
-            stationCode = "MAC"
-            stadiumLat = 53.2439295
-            stadiumLon = -2.1258639
-            teamCarInfo = "Sat Nav Postcode: SK11 7SP\n\nLeave the M6 at Junction 17 and turn onto the A534 towards Congleton. Once in Congleton follow signs for the A54 towards Buxton. Stay on the A54 for 5 miles and then turn left on to the A523 to Macclesfield.  The ground is on the left hand side of the A523 on the outskirts of Macclesfield."
-            teamTrainInfo = "Exit Macclesfield Station and at the bottom of the station approach turn left onto Sunderland Street. Follow the road until the traffic lights at Park Green, and turn left into Mill Lane.  Follow Mill Lane into London Road, and continue down London Road to the ground."
-            teamDrinkInfo = "The closest pub to the ground is the Golden Lion, ten minutes away on Moss Road walking past the ground. The Keith Alexander Bar at the ground also admits both home and away fans before the game."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/macclesfield-town/scores-fixtures"
         } else if teamName == "Maidenhead Utd" {
             stationCode = "MAI"
             stadiumLat = 51.51983

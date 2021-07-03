@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "NL-Btn.png",
+      "filename" : "NLButton.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "NL-Btn@2x.png",
+      "filename" : "NLButton@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "NL-Btn@3x.png",
+      "filename" : "NLButton@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
