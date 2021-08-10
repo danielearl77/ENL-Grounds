@@ -570,11 +570,11 @@ class TeamViewController: UITabBarController {
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "York City" {
             stationCode = "YRK"
-            stadiumLat = 53.96937
-            stadiumLon = -1.08825
-            teamCarInfo = "Sat Nav Postcode: YO30 7AQ\n\nTake the A19 towards York City Centre, and keep going until you come to the Burton Stone Inn pub on the left.  At the pub turn left into Burton Stone Lane, and first right into Grosvenor Road for the ground."
-            teamTrainInfo = "Exit the Station and walk through the short stay car park to the far end.  Follow the footpath to the Royal Mail HQ and turn right into the alley.  With the railway on your left follow the footpath down the alleyway, over the river and through the car park, keeping the railway on your left.  Once through the car park go under the railway and turn right into Bootham Terrace.  Walk up the road to the A19, turn left and cross the A19, then take the first right into Bootham Crescent.  The ground is straight ahead."
-            teamDrinkInfo = "There is a supporters club at the ground which admits away fans.  The nearest pub to the ground is the Burton Stone Inn on the A19 as you approach the ground.  Further down the A19 (away from the City Centre) is the Old Grey Mare.\n\nAlternatively the City Centre, and its many pubs, is only a fifteen-minute walk down the A19."
+            stadiumLat = 53.984737
+            stadiumLon = -1.052553
+            teamCarInfo = "Sat Nav Postcode: YO32 9AF \n\nLeave the A1(M) at Junction 44 and take the A64 towards York. Continue around York on the A64 and at the roundabout with the A1237 head into York, taking the first exit at the next roundabout onto the A1036.  At the next roundabout take the second exit, the ground is straight ahead. Please note parking must be booked via the club in advance."
+            teamTrainInfo = "York railway station is a good hour walk from the ground. So, a taxi or bus is the best option, with several bus route from the City Centre serving the ground."
+            teamDrinkInfo = "As the ground is on a retail park there are a few food options but not really any pubs close by.  A better bet is drinking in the City Centre before heading out to the ground."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else {
             stationCode = "VIC"
