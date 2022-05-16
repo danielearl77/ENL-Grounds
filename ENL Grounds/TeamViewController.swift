@@ -134,6 +134,22 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south and take the first left into County Road for the ground."
             teamDrinkInfo = "The Globe on London Road is a good choice, as is the Southbank, across Trent Bridge. Alternatively, there are plenty of pubs in Nottingham City Centre.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/notts-county/scores-fixtures"
+        } else if teamName == "Oldham Athletic" {
+            stationCode = "MIH"
+            stadiumLat = 53.5543382
+            stadiumLon = -2.1280832
+            teamCarInfo = "Sat Nav Postcode: OL1 2PA\n\nLeave the M62 at Juntction 20 and take the A627 towards Oldham, then take the second slip road off the A627 following signs to Royton (A663). Turn left at the roundabout towards Royton (A663) then take the next right onto Hilbre Avenue for the ground."
+            teamTrainInfo = "The nearest station, Oldham Mill Hills, is to far to walk so either take a taxi from here or catch a bus from Manchester Piccadilly Bus Station to Oldham. Routes 24, 181, and 182 take around 25 minutes and run past the ground."
+            teamDrinkInfo = "The Clayton Green on Sheepfoot Lane is the closest pub to the ground."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/oldham-athletic/scores-fixtures"
+        } else if teamName == "Scunthorpe Utd" {
+            stationCode = "SCU"
+            stadiumLat = 53.5872359
+            stadiumLon = -0.6948787
+            teamCarInfo = "Sat Nav Postcode: DN15 8TD\n\nFrom the M180 Junction 3 take the M181. At the end of the M181 turn right onto the A18 (Doncaster Road) and then first right for the ground."
+            teamTrainInfo = "Scunthorpe Station is about 2 miles away so taxi is the easiest option. To walk turn left out of the station go straight over at Oswald Road into Church Lane, following this to the A18 (Kingsway). Follow Kingsway to the roundabout where it become Doncaster Road, which leads to the ground."
+            teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground./n/nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/scunthorpe-united/scores-fixtures"
         } else if teamName == "Solihull Moors" {
             stationCode = "BHI"
             stadiumLat = 52.43888
@@ -150,14 +166,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Prittlewell, and exit the Station onto East Street. Turn right at the junction with Victoria Avenue and the ground is on the left hand side.  To get to the away turnstiles walk down Victoria Avenue past the main entrance and turn left into Fairfax Drive. The away entrance is on the left."
             teamDrinkInfo = "The only real option for away fans is the Railway Tavern outside Prittlewell Railway Station.\n\nAlcohol is not available to away fans inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southend-united/scores-fixtures"
-        } else if teamName == "Stockport County" {
-            stationCode = "SPT"
-            stadiumLat = 53.39992
-            stadiumLon = -2.16712
-            teamCarInfo = "Sat Nav Postcode: SK3 9DD\n\nLeave the M60 at Junction 1 and follow the road into Stockport.  At the second set of traffic lights take the A560 towards Cheadle, and then the next left into Edgeley Road.  When Edgeley Road becomes Mercian Way turn right into Caroline Street for the ground."
-            teamTrainInfo = "Exit Stockport Station and turn left walking up Station Road.  Continue up the hill towards the roundabout, go straight over and then turn left into Caroline Street for the ground."
-            teamDrinkInfo = "Closest to the ground there is a small Labour Club by the entrance to the Railway End that allows visitors in for a small entrance fee. Otherwise there are a number of pubs along the shopping area across the main road from the Away End."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/stockport-county/scores-fixtures"
         } else if teamName == "Torquay Utd" {
             stationCode = "TRR"
             stadiumLat = 50.47681
