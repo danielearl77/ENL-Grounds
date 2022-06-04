@@ -1,23 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "Gateshead.png",
       "idiom" : "universal",
-      "filename" : "Dorking.png",
       "scale" : "1x"
     },
     {
+      "filename" : "Gateshead@2x.png",
       "idiom" : "universal",
-      "filename" : "Dorking@2x.png",
       "scale" : "2x"
     },
     {
+      "filename" : "Gateshead@3x.png",
       "idiom" : "universal",
-      "filename" : "Dorking@3x.png",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

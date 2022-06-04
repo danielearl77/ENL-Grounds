@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0gE-MI-qXU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0gE-MI-qXU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="man-nl-tRq">
                                 <rect key="frame" x="163.5" y="437.5" width="87" height="21"/>
@@ -26,13 +26,27 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PgV-tj-Gzf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <items>
+                                    <navigationItem title="Non Leauge Ground Guide" id="ewk-vk-CRR"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="man-nl-tRq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GsG-93-hSD"/>
-                            <constraint firstItem="man-nl-tRq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xdh-hn-wpB"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0gE-MI-qXU" secondAttribute="bottom" id="D6P-Fn-CRL"/>
+                            <constraint firstItem="0gE-MI-qXU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Em9-Al-gka"/>
+                            <constraint firstItem="man-nl-tRq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TW4-qY-cOU"/>
+                            <constraint firstItem="0gE-MI-qXU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fym-z4-76H"/>
+                            <constraint firstItem="PgV-tj-Gzf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gKz-JI-VL6"/>
+                            <constraint firstItem="PgV-tj-Gzf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jEx-Q6-U05"/>
+                            <constraint firstItem="0gE-MI-qXU" firstAttribute="top" secondItem="PgV-tj-Gzf" secondAttribute="bottom" id="sRr-cV-sKy"/>
+                            <constraint firstItem="man-nl-tRq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="t2E-k0-h3C"/>
+                            <constraint firstItem="PgV-tj-Gzf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yGt-ZW-A1m"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -42,5 +56,8 @@
     </scenes>
     <resources>
         <image name="background" width="2000" height="2829"/>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

@@ -10,6 +10,10 @@
 		14060B56227C54820019EB07 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B48227C54820019EB07 /* WebKit.framework */; };
 		14060B59227C54820019EB07 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B4B227C54820019EB07 /* MapKit.framework */; };
 		14060B60227C54820019EB07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B52227C54820019EB07 /* CoreLocation.framework */; };
+		14608A21284B7FD300CDD37D /* SupportUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14608A20284B7FD300CDD37D /* SupportUsViewController.swift */; };
+		14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14608A22284B7FE300CDD37D /* IAP Manager.swift */; };
+		14608A25284B8B9F00CDD37D /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14608A24284B8B9F00CDD37D /* ProductIds.plist */; };
+		14608A27284B8D7E00CDD37D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14608A26284B8D7E00CDD37D /* StoreKit.framework */; };
 		5239811A22776C930066EF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239811922776C930066EF4C /* AppDelegate.swift */; };
 		5239811C22776C930066EF4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239811B22776C930066EF4C /* ViewController.swift */; };
 		5239811F22776C930066EF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5239811D22776C930066EF4C /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 		14060B48227C54820019EB07 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		14060B4B227C54820019EB07 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		14060B52227C54820019EB07 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14608A20284B7FD300CDD37D /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
+		14608A22284B7FE300CDD37D /* IAP Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP Manager.swift"; sourceTree = "<group>"; };
+		14608A24284B8B9F00CDD37D /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
+		14608A26284B8D7E00CDD37D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5239811622776C930066EF4C /* ENL Grounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENL Grounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5239811922776C930066EF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5239811B22776C930066EF4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +62,7 @@
 				14060B56227C54820019EB07 /* WebKit.framework in Frameworks */,
 				14060B59227C54820019EB07 /* MapKit.framework in Frameworks */,
 				14060B60227C54820019EB07 /* CoreLocation.framework in Frameworks */,
+				14608A27284B8D7E00CDD37D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		14060B45227C54820019EB07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14608A26284B8D7E00CDD37D /* StoreKit.framework */,
 				14060B52227C54820019EB07 /* CoreLocation.framework */,
 				14060B4B227C54820019EB07 /* MapKit.framework */,
 				14060B48227C54820019EB07 /* WebKit.framework */,
@@ -104,6 +114,9 @@
 				5239812022776C940066EF4C /* Assets.xcassets */,
 				5239812222776C940066EF4C /* LaunchScreen.storyboard */,
 				5239812522776C950066EF4C /* Info.plist */,
+				14608A20284B7FD300CDD37D /* SupportUsViewController.swift */,
+				14608A22284B7FE300CDD37D /* IAP Manager.swift */,
+				14608A24284B8B9F00CDD37D /* ProductIds.plist */,
 			);
 			path = "ENL Grounds";
 			sourceTree = "<group>";
@@ -170,6 +183,7 @@
 				5239812422776C940066EF4C /* LaunchScreen.storyboard in Resources */,
 				5239812122776C940066EF4C /* Assets.xcassets in Resources */,
 				5239811F22776C930066EF4C /* Main.storyboard in Resources */,
+				14608A25284B8B9F00CDD37D /* ProductIds.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,10 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5239811C22776C930066EF4C /* ViewController.swift in Sources */,
+				14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */,
 				52DCE210227B6029006C1C72 /* TeamViewController.swift in Sources */,
 				52DCE20A227B5E29006C1C72 /* NationalLeagueTableViewController.swift in Sources */,
 				52DCE20E227B5E4D006C1C72 /* NationalLeagueNorthTableViewController.swift in Sources */,
 				52DCE20C227B5E40006C1C72 /* NationalLeagueSouthTableViewController.swift in Sources */,
+				14608A21284B7FD300CDD37D /* SupportUsViewController.swift in Sources */,
 				52DCE218227B627C006C1C72 /* TeamInfoViewController.swift in Sources */,
 				52DCE216227B6271006C1C72 /* FixturesViewController.swift in Sources */,
 				52DCE214227B6253006C1C72 /* TrainsViewController.swift in Sources */,
@@ -339,12 +355,12 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = NLNPC5X4J8;
 				INFOPLIST_FILE = "ENL Grounds/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.ENL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -360,12 +376,12 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = NLNPC5X4J8;
 				INFOPLIST_FILE = "ENL Grounds/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.ENL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
