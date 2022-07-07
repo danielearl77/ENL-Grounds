@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Stockport.png",
+      "filename" : "Scarborough Athletic.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Stockport@2x.png",
+      "filename" : "Scarborough Athletic@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Stockport@3x.png",
+      "filename" : "Scarborough Athletic@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

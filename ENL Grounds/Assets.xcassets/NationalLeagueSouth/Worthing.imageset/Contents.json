@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Stockport.png",
+      "filename" : "Worthing.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Stockport@2x.png",
+      "filename" : "Worthing@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Stockport@3x.png",
+      "filename" : "Worthing@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
