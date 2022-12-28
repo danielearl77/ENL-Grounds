@@ -85,7 +85,7 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: RH4 1DX\n\nLeave the M25 at Junction 9 and take the A243 and then the A24 towards Dorking. After 12 miles you should reach the edge of Dorking. After the exit for the Railway Stations, at the next roundabout, take the fourth exit onto the A25 (Signposted Dorking Town Centre). After passing a Petrol Station on your left go straight along the High Street. On reaching the White Horse Hotel, turn right into Mill Lane. At the fork in the road if you bear right down the narrow lane the ground entrance is at the bottom on the left."
             teamTrainInfo = "Exit Dorking Deepdene Station and walk across London Road at the lights. Once across turn left and then right staying on London Road. Bear right down Tutts Close and walk along the footpath beside the river. At the children’s playground, go straight on and the ground is on the right."
             teamDrinkInfo = "There is a very small bar on the first floor of the Club Office Building, which normally admits away fans. Otherwise the ground is only a few minutes’ walk from the High Street where there are several pubs."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/dorking-wanderers/scores-fixtures
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/dorking-wanderers/scores-fixtures"
         } else if teamName == "Eastleigh" {
             stationCode = "SOA"
             stadiumLat = 50.95231
@@ -148,7 +148,7 @@ class TeamViewController: UITabBarController {
             stadiumLon = -0.6948787
             teamCarInfo = "Sat Nav Postcode: DN15 8TD\n\nFrom the M180 Junction 3 take the M181. At the end of the M181 turn right onto the A18 (Doncaster Road) and then first right for the ground."
             teamTrainInfo = "Scunthorpe Station is about 2 miles away so taxi is the easiest option. To walk turn left out of the station go straight over at Oswald Road into Church Lane, following this to the A18 (Kingsway). Follow Kingsway to the roundabout where it become Doncaster Road, which leads to the ground."
-            teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground./n/nAlcohol is also available inside the stadium."
+            teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/scunthorpe-united/scores-fixtures"
         } else if teamName == "Solihull Moors" {
             stationCode = "BHI"
@@ -255,9 +255,9 @@ class TeamViewController: UITabBarController {
             stationCode = "TEO"
             stadiumLat = 51.694451
             stadiumLon = -0.041579
-            teamCarInfo = "Sat Nav Postcode: EN8 8RU\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: EN8 8RU\n\nLeave the M25 at Junction 25 and take the A10 North until you reach the roundabout.  Take the third exit onto Winston Churchill Way and at the next roundabout take the first exit onto the High Street.  Continue north on the High Street, passing under the railway at Theobolds Grove station, and then at the next mini roundabout turn left into Theobolds Lane.  Continue along Theobolds Lane for half a mile and the ground is on the right."
+            teamTrainInfo = "London Overground trains serve Theobolds Grove station from London Liverpool Street.  Exit the station and walk onto the High Street, turning left and heading under the railway towards the north. Take the second left onto Theobolds Lane, and continue for half a mile.  The ground is then on the right."
+            teamDrinkInfo = "The nearest pub is the Vine on the roundabout at the end of Winston Churchill Way.  If you walk south down the high street into Waltham Cross, there is a Wetherspoons down form the Pavilions Shopping Centre.  There are also a number of food outlets around the high street near the shopping centre."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Chippenham Town" {
             stationCode = "CPM"
@@ -319,9 +319,9 @@ class TeamViewController: UITabBarController {
             stationCode = "FNB"
             stadiumLat = 51.310454
             stadiumLon = -0.762249
-            teamCarInfo = "Sat Nav Postcode: GU14 8UD\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: GU14 8UD\n\nLeave the M3 at Junction 4 and take the A331 South. Leave the A331 onto the A325, signposted Farnborough and Hawley. At the roundabout take the third exit onto Frimley High Street and go straight over the next roundabout. At the third roundabout take the first exit onto the A325 Farnborough Road. Move into the right-hand lane, and turn right at the traffic lights into Prospect Avenue (signposted Farnborough Town FC).  At the end of Prospect Avenue turn right at the roundabout into Cherrywood Road.  Continue up Cherrywood Road for about half a mile and the ground is on the right-hand side of the road."
+            teamTrainInfo = "Farnborough Main Station is one and a half miles from the ground. Exit the station and turn right onto Union Street. At the end of the road turn right onto Prospect Road, walking under the railway. Continue walking up Prospect Road until you come to the roundabout with Cherrywood Road, continuing into Cherrywood Road.  The ground is another half a mile up Cherrywood Road, on the right-hand side."
+            teamDrinkInfo = "There are not really any pubs near the ground. However, at the ground there is a large Bar and Restaurant venue called The Cherrywood that is open seven days a week."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Hampton & Richmond Borough" {
             stationCode = "HMP"
@@ -383,9 +383,9 @@ class TeamViewController: UITabBarController {
             stationCode = "TAU"
             stadiumLat = 51.016718
             stadiumLon = -3.085136
-            teamCarInfo = "Sat Nav Postcode: TA1 2HG\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: TA1 2HG\n\nLeave the M5 at Junction 25 and take the A358 towards Taunton. After 1.5 miles, at the second roundabout, take the first exit onto Chritchard Way. At the next set of traffic lights turn left onto Wordsworth Drive, go past the turning for Hamilton Road and the ground is on the left."
+                teamTrainInfo = "Exit the station onto Station Road and head south towards the river and the County Cricket Ground.  At the Ale House pub turn left onto Priory Bridge Road and continue over the river and past the cricket ground. After Brewers Diy Store turn right into Winchester Street, cross over Priory Street and at the end of Winchester Street walk between the gap in the houses into Haydon Road. Continue to the end of Haydon Road and turn left onto E Reach. Follow the road right into Wordsworth Drive continue past the turning for Hamilton Road and the ground is on the left."
+                teamDrinkInfo = "The nearest pubs to the ground are The Somerset Inn on Alfred Street or The Master Thatcher past the ground on Lisieux Way.  There are also plenty of food and drink options in the town centre if you are walking from the station."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Tonbridge Angels" {
             stationCode = "TON"
@@ -415,9 +415,9 @@ class TeamViewController: UITabBarController {
             stationCode = "WRH"
             stadiumLat = 50.820339
             stadiumLon = -0.384817
-            teamCarInfo = "Sat Nav Postcode: BN14 7HQ\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: BN14 7HQ\n\nFrom the East or the West take the A27 as far as the Grove Lodge Roundabout A24 Junction. At the roundabout take the A24 south towards Worthing, and then take the first right into S Farm Road. Continue down S Farm Road for about a mile and then turn right into Bulkington Avenue, and then take the second left into Woodside Road. The ground is then on the right-hand side."
+            teamTrainInfo = "Exit Worthing Station onto Station Approach and then turn right into Cross Street.  At the end of Cross Street turn right onto S Farm Road and walk over the level crossing, then take the second left into Henty Road. The ground is at the end of Henty Road on Woodside Road."
+            teamDrinkInfo = "The Woodside Bar at the ground is the nearest pub, or the Brooksteed Alehouse on S Farm Road is a good bet if you are walking from the railway station."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else {
             stationCode = "VIC"
@@ -460,9 +460,9 @@ class TeamViewController: UITabBarController {
             stationCode = "BAN"
             stadiumLat = 52.056799
             stadiumLon = -1.325793
-            teamCarInfo = "Sat Nav Postcode: OX16 5AB\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: OX16 5AB\n\nLeave the M40 at Junction 11 and take the A442 towards Banbury. At the second roundabout turn left onto the A4260 Concord Avenue, and then at the next roundabout continue straight on until you reach the junction with Bridge Street. At the junction turn left onto Bridge Street and then take the first right down to the Station (Signposted Station and Car Park West). Follow the road past the station and industrial estate to the end where you will fund the ground."
+            teamTrainInfo = "Leave Banbury Station using the exit at Platform 1 into the small open air station car park. Walk through the car park towards the small industrial estate. Follow the road alongside the industrial estate until you reach the ground, which is tucked in at the end of the estate."
+            teamDrinkInfo = "There are no pubs near to the ground, with the closets pub The Bell on Middleton Road, up past the station.  Alternatively, if you head into Banbury Town Centre before the game there are plenty of options on The High Street and Parsons Street."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Blyth Spartans" {
             stationCode = "CRM"
@@ -500,9 +500,9 @@ class TeamViewController: UITabBarController {
             stationCode = "BUX"
             stadiumLat = 53.256604
             stadiumLon = -1.906578
-            teamCarInfo = "Sat Nav Postcode: SK17 6QH\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: SK17 6QH\n\nFrom the South take the A515 towards Buxton. Drive past the Cemetery on the edge of town and continue on the A515 past the Premier Inn and Cote Heath Park. At the large 5-way junction (The London Road Inn is on the corner) turn right into Dale Road. Take the fifth left into Darwin Avenue and at the end turn right into Silverlands. After about a minute the ground is on the right."
+            teamTrainInfo = "Exit the station onto Station Road and turn left. Cross over the road and at the roundabout turn right into New Wye Street. Walk past the car park and turn left walking between the shops turning left at the end into the pedestrianised Spring Gardens. At the end of Spring Gardens turn right into Holker Road and walk down here to the junction with Silverlands. Turn left onto Silverlands and the ground is just over the railway bridge on the right."
+            teamDrinkInfo = "While there are no pubs right by the ground there is a Wetherspoons on Fairfield Road, and The Railway on Bridge Street. There is also The Buxton Brewery Tap House and Cellar, behind the Visitors Centre on George Street."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Chester" {
             stationCode = "CTR"
@@ -596,17 +596,17 @@ class TeamViewController: UITabBarController {
             stationCode = "PBO"
             stadiumLat = 52.593814
             stadiumLon = -0.254319
-            teamCarInfo = "Sat Nav Postcode: PE1 3HA\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: PE1 3HA\n\nLeave the A47 at junction 18 and take the A15 South towards the City Centre. Take the first left off the A15 into Lincoln Road, turning right at the end of the slip road heading south down Lincoln Road. The ground is on the left after the Car Wash."
+            teamTrainInfo = "Peterborough Station is about one and a half miles from the ground.\nLeave the station and turn left heading towards the station car park. when you reach the car park walk alongside the dual carriageway (A15) until you reach the next roundabout. Cross over Westfield Road and then cross over the dual carriageway and head for the quieter Borgues Blvd. Continue North, crossing over Maskew Avenue until Borges Blvd becomes Lincoln Road. The ground is down the next right before the car wash."
+            teamDrinkInfo = "The nearest pub to the ground is The Crown on Lincoln Road, towards the A47 on the corner of Crown Street.  There are also plenty of food options along Lincoln Road towards the City Centre."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Scarborough Athletic" {
             stationCode = "SCA"
             stadiumLat = 54.268851
             stadiumLon = -0.413477
-            teamCarInfo = "Sat Nav Postcode: YO11 2JW\n\n"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
+            teamCarInfo = "Sat Nav Postcode: YO11 2JW\n\nTake the A64 towards Scarborough, as you reach Scarborough you will pass the Park and Ride, and then a retail park on your right. Continue on the A64 Seamer Road until you reach a large junction by a church. Turn right at the church onto Valley Road, going straight over the roundabout. After crossing over the railway line turn right into Ashburn Road. Follow Ashburn Road for about half a mile to the ground."
+            teamTrainInfo = "Leave the Station and turn left onto Westborough. Take the third right into Belgrave Terrace, cross over the railway line, and turn right at the end onto Westwood. Take the second left onto Westwood Road and continue to the end where it meets Valley Road. Next take the second right into Ashburn Road and follow this down to the ground."
+            teamDrinkInfo = "The nearest pub to the ground is Cellars Bar on Valley Road, between the Station and the ground. There are also a number of options on Falsgrave Road."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Southport" {
             stationCode = "MEC"
