@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Halifax.png",
+      "filename" : "Torquay.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Halifax@2x.png",
+      "filename" : "Torquay@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Halifax@3x.png",
+      "filename" : "Torquay@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

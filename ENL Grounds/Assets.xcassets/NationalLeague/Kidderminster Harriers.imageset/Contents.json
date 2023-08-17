@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Halifax.png",
+      "filename" : "Kidderminster.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Halifax@2x.png",
+      "filename" : "Kidderminster@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Halifax@3x.png",
+      "filename" : "Kidderminster@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

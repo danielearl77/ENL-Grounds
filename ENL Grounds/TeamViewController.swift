@@ -22,14 +22,14 @@ class TeamViewController: UITabBarController {
     
     // MARK: National League Team Data
     func loadNationalLeagueData() {
-        if teamName == "Altrincham" {
-            stationCode = "ALT"
-            stadiumLat = 53.383424
-            stadiumLon = -2.335147
-            teamCarInfo = "Sat Nav Postcode: WA15 8AP\n\nLeave the M6 at Junction 19 and take the A556 towards Manchester Airport, and then onto the M56 still heading towards Manchester Airport. Leave the M56 at Junction 6 and take the A538 towards Altrincham. After two miles continue over the junction with the A5144and then take the third right into Westminster Road. Continue down Westminster Road, which becomes Bancroft Road, and then Moss Lane. The ground is down Moss Lane on the right."
-            teamTrainInfo = "Exit the Station and take the first left into Moss Lane. Keep walking down Moss Lane and eventually the ground on the left."
-            teamDrinkInfo = "Next to the ground is the Community Sports Hall, which has a bar inside that admits away fans. Otherwise the nearest pub is the King George on Moss Lane, or Altrincham town centre is around a 15-minute walk away."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/altrincham/scores-fixtures"
+        if teamName == "AFC Fylde" {
+            stationCode = "KKM"
+            stadiumLat = 53.79738
+            stadiumLon = -2.88953
+            teamCarInfo = "Sat Nav Postcode: PR4 3JZ\n\nLeave the M55 at Junction 3 and take the A585 towards Kirkham. After a mile you reach the Stadium on your right. The entrance is just off the roundabout by Aldi."
+            teamTrainInfo = "Exit Kirkham & Wesham Station with the main entrance behind you. Turn right and walk along Station Road. Go straight across the roundabout and at the next roundabout turn right into Garstang Road North. Continue along this road and at the end you will reach another roundabout, the ground is on the other side of the road behind Aldi."
+            teamDrinkInfo = "At the Stadium itself is Bradley’s Sports Bar, which normally admits away fans. The nearest pub to the ground is the Lane Ends pub on Weeton Road, around a ten-minute walk. In the centre of nearby Wesham, near the railway station are two pubs on Garstang Road, The Royal Oak and The Stanley Arms."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Aldershot Town" {
             stationCode = "AHT"
             stadiumLat = 51.24884
@@ -38,6 +38,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Aldershot Station and head up Station Road towards Arthur Street.  Continue into Arthur Street and then turn right into Windsor Way, then at the roundabout take the 3rd exit into Ordnance Road.  Take the next right down to the ground."
             teamDrinkInfo = "The Beehive and Crimea are the closest two pubs to the ground.  Alternatively, there are several pubs in Aldershot Town Centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/aldershot-town/scores-fixtures"
+        } else if teamName == "Altrincham" {
+            stationCode = "ALT"
+            stadiumLat = 53.383424
+            stadiumLon = -2.335147
+            teamCarInfo = "Sat Nav Postcode: WA15 8AP\n\nLeave the M6 at Junction 19 and take the A556 towards Manchester Airport, and then onto the M56 still heading towards Manchester Airport. Leave the M56 at Junction 6 and take the A538 towards Altrincham. After two miles continue over the junction with the A5144and then take the third right into Westminster Road. Continue down Westminster Road, which becomes Bancroft Road, and then Moss Lane. The ground is down Moss Lane on the right."
+            teamTrainInfo = "Exit the Station and take the first left into Moss Lane. Keep walking down Moss Lane and eventually the ground on the left."
+            teamDrinkInfo = "Next to the ground is the Community Sports Hall, which has a bar inside that admits away fans. Otherwise the nearest pub is the King George on Moss Lane, or Altrincham town centre is around a 15-minute walk away."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/altrincham/scores-fixtures"
         } else if teamName == "Barnet" {
             stationCode = "XXX"
             stadiumLat = 51.64584
@@ -94,6 +102,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "The nearest station is Southampton Airport Parkway, around a twenty-minute walk. Exit the station and cross over the road, turn left and follow the road and then footpath through Lakeside Country Park. On the other side of the park you come out onto a main road, cross this road and walk down Stoneham Lane. The ground is past the church on the left."
             teamDrinkInfo = "The Hanger Bar can be found at the ground and admits away fans before the game. The Concorde Club on Stoneham Lane has a public bar, and on Chestnut Avenue the nearest pub is the Cricketers. Otherwise there are plenty of options for food and drink in the Town Centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/eastleigh/scores-fixtures"
+        } else if teamName == "Ebbsfleet Utd" {
+            stationCode = "NFL"
+            stadiumLat = 51.44953
+            stadiumLon = 0.32231
+            teamCarInfo = "Sat Nav Postcode: DA11 9GN\n\nLeave the M25 at Junction 2 and take the A2 towards Gillingham. Turn off the A2 and take the B262 towards Stone and Greenhithe. At the end of the B262 turn right onto the A226 towards Gravesend & Northfleet. Stay on this road until you reach the ground on your left."
+            teamTrainInfo = "Exit Northfleet Station and turn left at the top of the road. You should be able to see the ground from here, down on the right."
+            teamDrinkInfo = "The Fleet Lounge Club Bar is inside the ground, and open away fans unless segregation is in force. Near Swanscombe Railway Station you can find the George and Dragon, and towards Northfleet the Edinburgh Castle is on the High Street."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "FC Halifax Town" {
             stationCode = "HFX"
             stadiumLat = 53.71595
@@ -110,6 +126,22 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Newcastle Central and then use the Metro, taking a Metro Train to Gateshead Stadium Station.\n\nExit the Metro Station and turn right, walk over the railway line and turn right onto a footpath that will take you through the housing estate. Follow this path until you reach the main road, the ground is on the other side of this road."
             teamDrinkInfo = "The bar in the main stand is for home fans only. The nearest pub is the Schooner on the bank of the River Tyne down South Shore Road. A better option would be to drink in Newcastle City Centre before taking the Metro to the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/gateshead/scores-fixtures"
+        } else if teamName == "Hartlepool Utd" {
+            stationCode = "HPL"
+            stadiumLat = 54.68957
+            stadiumLon = -1.21360
+            teamCarInfo = "Sat Nav Postcode: TS24 8BZ\n\nLeave the A19 and take the A179 towards Hartlepool.  At third roundabout turn right onto Easington Road.  Follow the signs for Town Centre A179 over two roundabouts.  At third roundabout turn right onto Marina Way.  At the next roundabout turn right, and then left at the lights into Clarence Road for the ground."
+            teamTrainInfo = "From Hartlepool Station walk down Station Approach to Church Street.  Turn right onto Church Street, go over the roundabout and then cross over the dual carriageway into Clarence Road.  Follow Clarence Road to the ground."
+            teamDrinkInfo = "The 'Corner Flag Supporters Bar' on the corner at the away end admits away fans (for a small charge).  A popular pub with away fans is the Jackson's Wharf pub, across the road from Asda, near to the ground."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/hartlepool-united/scores-fixtures"
+        } else if teamName == "Kidderminster Harriers" {
+            stationCode = "KID"
+            stadiumLat = 52.380471
+            stadiumLon = -2.242657
+            teamCarInfo = "Sat Nav Postcode: DY10 1NB\n\nLeave M5 at junction 4 towards Stourbridge. After 5 miles, turn left onto the A456 towards Kidderminster.  At the roundabout with the Kidderminster Ring Road take first exit (signposted Stourport).  At next roundabout, take first exit towards Bromsgrove, and then take first right into Hoo Road for the ground."
+            teamTrainInfo = "Exit the Station and go past the Severn Valley Railway Station on your left. Walk down the hill and turn left into Hoo Road, the ground is up this road on the left."
+            teamDrinkInfo = "There is a supporters club at the ground which admits away fans.  There is also a pub behind the Reynolds Stand called the Harriers Arms. Otherwise, the King & Castle located inside the Severn Valley Railway Station is a good option if arriving by train."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Maidenhead Utd" {
             stationCode = "MAI"
             stadiumLat = 51.51983
@@ -118,22 +150,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Maidenhead Railway Station turn right and walk up to the main road. Turn left along the main road and cross over using the pedestrian crossing. Turn right into Queen Street and then take the next right into York Road. The entrance to the ground is down here on the right."
             teamDrinkInfo = "The Stripes Bar is right at the ground, otherwise the town centre is only a five-minute walk away with several pubs on the high street."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/maidenhead-united/scores-fixtures"
-        } else if teamName == "Maidstone Utd" {
-            stationCode = "MDE"
-            stadiumLat = 51.28002
-            stadiumLon = 0.51610
-            teamCarInfo = "Sat Nav Postcode: ME14 1LQ\n\nLeave the M20 at Junction 6 and take the A229 towards Maidstone. Go straight across two roundabouts and at the third roundabout take the third exit into James Whatman Way. The ground is right in front of you. At the T-junction turn left and the entrance is further down on the right."
-            teamTrainInfo = "Exit Maidstone East Station and walk up Station Approach to the main road. At the main road turn left and then go straight across the next two roundabouts, the ground is in front of you. Turn left at the T-Junction and the main entrance is down on the right."
-            teamDrinkInfo = "There is a supporters club at the ground which admits away fans. The Flower Pot Pub on Sandling Road is also a good option. The Swan Pub is close to the railway station on County road, or the town centre is about ten minutes away with several options for food and drink."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/maidstone-united/scores-fixtures/"
-        } else if teamName == "Notts County" {
-            stationCode = "NOT"
-            stadiumLat = 52.94224
-            stadiumLon = -1.13610
-            teamCarInfo = "Sat Nav Postcode: NG2 3HJ\n\nFrom the M1 Junction 24 take the A453 towards Nottingham. Just before the A52 junction turn off the A453 onto the B679 (Clifton Lane). Follow the B679 to the end and turn left onto the A60 (Loughborough Road). Continue over the river, driving past the ground, and turn right into the A6011 (County Road) for the ground."
-            teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south and take the first left into County Road for the ground."
-            teamDrinkInfo = "The Globe on London Road is a good choice, as is the Southbank, across Trent Bridge. Alternatively, there are plenty of pubs in Nottingham City Centre.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/notts-county/scores-fixtures"
         } else if teamName == "Oldham Athletic" {
             stationCode = "MIH"
             stadiumLat = 53.5543382
@@ -142,14 +158,22 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "The nearest station, Oldham Mill Hills, is to far to walk so either take a taxi from here or catch a bus from Manchester Piccadilly Bus Station to Oldham. Routes 24, 181, and 182 take around 25 minutes and run past the ground."
             teamDrinkInfo = "The Clayton Green on Sheepfoot Lane is the closest pub to the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/oldham-athletic/scores-fixtures"
-        } else if teamName == "Scunthorpe Utd" {
-            stationCode = "SCU"
-            stadiumLat = 53.5872359
-            stadiumLon = -0.6948787
-            teamCarInfo = "Sat Nav Postcode: DN15 8TD\n\nFrom the M180 Junction 3 take the M181. At the end of the M181 turn right onto the A18 (Doncaster Road) and then first right for the ground."
-            teamTrainInfo = "Scunthorpe Station is about 2 miles away so taxi is the easiest option. To walk turn left out of the station go straight over at Oswald Road into Church Lane, following this to the A18 (Kingsway). Follow Kingsway to the roundabout where it become Doncaster Road, which leads to the ground."
-            teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/scunthorpe-united/scores-fixtures"
+        } else if teamName == "Oxford City" {
+            stationCode = "OXF"
+            stadiumLat = 51.77391
+            stadiumLon = -1.22772
+            teamCarInfo = "Sat Nav Postcode: OX3 0NQ\n\nFrom the North leave the M40 at Junction 9 and take the A34 towards Oxford. Stay on the A34 for 7 miles until you reach the A44/A40 junction. Leave the A34 and take the ring road towards London. At the next roundabout take the second exit staying on the ring road, which is now the A40. Stay on the A40 for two miles and then exit at the Marston and Hospital junction. Follow the slip road around and over the A40 onto Marsh Lane. The ground is down on the left.\n\nFrom the South leave the M40 at Junction 8 and take the A40 towards Oxford. Follow the A40 for 7 miles and then exit at the Marston and Hospital junction.  Turn on to Marsh Lane and the ground is down on the left."
+            teamTrainInfo = "Oxford Railway Station is over three miles away from the ground so the only option is to jump in a taxi."
+            teamDrinkInfo = "There is a Club House inside the ground. Otherwise there are no pubs near the ground."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Rochdale" {
+            stationCode = "RCD"
+            stadiumLat = 53.6191217
+            stadiumLon = -2.1800118
+            teamCarInfo = "Sat Nav Postcode: OL11 5DR\n\nLeave the M62 at Junction 20 following signs for Rochdale A627(M). Bear left before the traffic lights, passing B&Q on your right. At the next roundabout the ground is well signpost (Spotland Stadium). Go straight on at the roundabout and after around 2 miles the ground is on the right."
+            teamTrainInfo = "Rochdale Station is over two miles from the ground so taxi is the best bet."
+            teamDrinkInfo = "The Church Pub on Willbutts Lane is the main away fans pub. At the ground there is also Studds, and The Ratcliffe Arms.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/rochdale/scores-fixtures"
         } else if teamName == "Solihull Moors" {
             stationCode = "BHI"
             stadiumLat = 52.43888
@@ -166,14 +190,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Prittlewell, and exit the Station onto East Street. Turn right at the junction with Victoria Avenue and the ground is on the left hand side.  To get to the away turnstiles walk down Victoria Avenue past the main entrance and turn left into Fairfax Drive. The away entrance is on the left."
             teamDrinkInfo = "The only real option for away fans is the Railway Tavern outside Prittlewell Railway Station.\n\nAlcohol is not available to away fans inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southend-united/scores-fixtures"
-        } else if teamName == "Torquay Utd" {
-            stationCode = "TRR"
-            stadiumLat = 50.47681
-            stadiumLon = -3.52244
-            teamCarInfo = "Sat Nav Postcode: TQ1 3PS\n\nAt the end of the M5 continue on to the A38 until it splits, taking the A380 towards Torquay.  Continue until the Penn Inn roundabout and take the second exit onto the A3022.  Follow the A3022 until the next roundabout, and take the first exit onto Riviera Way.  Continue on Riviera Way until a large crossroads with traffic lights and turn left into Hele Road.  After the second roundabout turn left, followed by an immediate right into Westhill Road. Continue up Westhill Road and straight over into Warbro Road for the ground."
-            teamTrainInfo = "Torquay Station is too far to walk so taxi is the best bet.  Torre Station is, however, closer.  Exit the station and walk up Newton Road, left into Upton Road and right into Lymington Road.  Continue up Lymington Road, which becomes Upton Hill.  At the end turn left into St Mary Church Road and right into Bronshill Road.  Finally turn left into Westlands Road for the ground."
-            teamDrinkInfo = "The closest pub to the ground is O'Connors, about five minutes away on Marychurch Road.  The George Inn and the Dog and Duck, both on Babacombe Road also admit away fans."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/torquay-united/scores-fixtures"
         } else if teamName == "Wealdstone" {
             stationCode = "WRU"
             stadiumLat = 51.569408
@@ -190,22 +206,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Woking Station on the Station Approach / Oriental Road side. Turn Right down Station Approach and at the end, turn left onto Claremont Road. At the end of Claremont Road turn left on Kingfield Road and the ground is over the road on the right."
             teamDrinkInfo = "If no segregation is in force Cardinals Bar behind the main stand admits away fans. The Kingfield Arms in on Kingfield Road just down from the ground, otherwise Woking town centre is a ten-minute walk away."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/woking/scores-fixtures"
-        } else if teamName == "Wrexham" {
-            stationCode = "WRX"
-            stadiumLat = 53.05195
-            stadiumLon = -3.00362
-            teamCarInfo = "Sat Nav Postcode: LL11 2AH\n\nFrom the North take the A483 towards Wrexham. Leave the A483 at the junction of the A541, the ground is 300 yards from this junction towards the Town Centre.\n\nFrom the South take the M54 to the end of the Motorway, joining the A5 towards Shrewsbury. Stay on the A5 until you reach the A483 towards Wrexham, then follow the directions from the North."
-            teamTrainInfo = "Take the train to Wrexham General as it is located next to the stadium. Exit the station and walk up the approach road, turning right at the top along the main road. The stadium is along on the right."
-            teamDrinkInfo = "At the ground there is the Centenary Club, which admits away fans and is close to the away turnstiles. The Turf pub is also on one corner of the ground, and admits a small number of away fans. The most popular pub with away fans is the Plas Coch, about a five-minute walk from the ground."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/wrexham/scores-fixtures"
-        } else if teamName == "Yeovil Town" {
-            stationCode = "YVJ"
-            stadiumLat = 50.95022
-            stadiumLon = -2.67471
-            teamCarInfo = "Sat Nav Postcode: BA22 8YF\n\nLeave the A303 and take the A3088 towards Yeovil. After four miles turn left at the roundabout and continue straight on. At the second roundabout turn left into Lufton Way. Follow Lufton Way round to the ground"
-            teamTrainInfo = "Both Railway Stations that serve Yeovil are too far from the ground to walk, so taxi or bus is the best option."
-            teamDrinkInfo = "There aren't really any pubs in the immediate area of the ground. On the way into Yeovil on Bluebell Road (left at the first roundabout after the A3088) is the Airfield Tavern, or on Preston Road (right at the second roundabout after the A3088) is the Bell Inn."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/yeovil-town/scores-fixtures"
         } else if teamName == "York City" {
             stationCode = "YRK"
             stadiumLat = 53.984737
@@ -227,7 +227,15 @@ class TeamViewController: UITabBarController {
 
     // MARK: National League South Team Data
     func loadNationalLeagueSouthData() {
-        if teamName == "Bath City" {
+        if teamName == "Aveley" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Bath City" {
             stationCode = "OLF"
             stadiumLat = 51.37889
             stadiumLon = -2.39502
@@ -251,14 +259,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Chelmsford Station is around two miles to the ground. There is a taxi rank at the station, or you can take the 54 or 56 Bus towards North Melbourne or the 40 Bus towards Broomfield Hospital."
             teamDrinkInfo = "There is a Club House inside the ground which admits away fans. The nearest pub is the Red Beret on Melbourne Avenue or The Flyer, which is next door to Morrisons."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Cheshunt" {
-            stationCode = "TEO"
-            stadiumLat = 51.694451
-            stadiumLon = -0.041579
-            teamCarInfo = "Sat Nav Postcode: EN8 8RU\n\nLeave the M25 at Junction 25 and take the A10 North until you reach the roundabout.  Take the third exit onto Winston Churchill Way and at the next roundabout take the first exit onto the High Street.  Continue north on the High Street, passing under the railway at Theobolds Grove station, and then at the next mini roundabout turn left into Theobolds Lane.  Continue along Theobolds Lane for half a mile and the ground is on the right."
-            teamTrainInfo = "London Overground trains serve Theobolds Grove station from London Liverpool Street.  Exit the station and walk onto the High Street, turning left and heading under the railway towards the north. Take the second left onto Theobolds Lane, and continue for half a mile.  The ground is then on the right."
-            teamDrinkInfo = "The nearest pub is the Vine on the roundabout at the end of Winston Churchill Way.  If you walk south down the high street into Waltham Cross, there is a Wetherspoons down form the Pavilions Shopping Centre.  There are also a number of food outlets around the high street near the shopping centre."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Chippenham Town" {
             stationCode = "CPM"
             stadiumLat = 51.46560
@@ -266,14 +266,6 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: SN14 6LR\n\nLeave the M4 at Junction 17 and take the A350 towards Chippenham. After two and a half miles at the roundabout take the first exit onto the B4158 towards the town centre. At the next traffic lights turn right onto Hardenhuish Lane. At the bottom of Hardenhuish Lane at the first roundabout take the first exit onto Bristol Road.  After a quarter of a mile you come to a small car park on the left, after the car park you find the entrance to the ground."
             teamTrainInfo = "Leave the platform using the steps at the far end of the station. Turn right at the top, cross the tracks, go down the steps leaving the station and walk into Union Road. At the end of the road turn left into New Road, and then cross New Road at the traffic lights. Walk straight on this road for around half a mile, and shortly after it becomes Bristol Road you will reach the ground on the right."
             teamDrinkInfo = "There is a Club House at the ground which admits away fans unless segregation is in force. There are no pubs near the ground, however, the town centre is only a 15-minute walk away with plenty of pubs and food options."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Concord Rangers" {
-            stationCode = "BEF"
-            stadiumLat = 51.51255
-            stadiumLon = 0.57548
-            teamCarInfo = "Sat Nav Postcode: SS8 0HH\n\nTake the A130 towards Canvey Island, and after four miles from the A13/A130 junction you will reach a mini roundabout. Turn right into Thorney Bay Road and then take the third right into Thames Road. The ground is down Thames road on the left."
-            teamTrainInfo = "Benfleet is the nearest station to the ground, just under three miles away. There are taxis or the Number 21 or 27 Bus both go along Thoney Bay Road for the ground."
-            teamDrinkInfo = "There is a bar at the ground, but otherwise nothing close by. There are a few places in Canvey Island if you want to head into town."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Dartford" {
             stationCode = "DFD"
@@ -291,14 +283,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Kearsney Station, turn right and walk down to the end of the road. At the bottom of the road turn right and walk under the railway bridge taking the next left into Lower Road. Walk along Lower Road, passing the Royal Oak pub on your left and at the bottom of the road turn left. Walk alongside the river passing the Crabble Mill on your left and at the end turn right into Crabble Road. The ground is up here on the left."
             teamDrinkInfo = "The is a Club House at the ground which admits both home and away fans, unless segregation is in force. The Railway Bell pub is close to Kearnsey Railway Station and on the route from the station to the ground you would also pass the Royal Oak."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/dover-athletic/scores-fixtures"
-        } else if teamName == "Dulwich Hamlet" {
-            stationCode = "EDW"
-            stadiumLat = 51.46124
-            stadiumLon = -0.08403
-            teamCarInfo = "Sat Nav Postcode: SE22 8BD\n\nLeave the M25 at Junction 7 and take the M23 towards London, and continue onto the A23 towards Croydon. Continue along the A23 towards Central London through Croydon and then Streatham. On reaching the South Circular A205 turn right towards Dulwich. After passing Dulwick Park turn left onto Lordship Lane towards East Dulwich. Go through East Dulwich and straight on at the roundabout. You will pass East Dulwich station on your left, once past the small park on your left turn into Sainsbury's. The ground is located to the left."
-            teamTrainInfo = "Exit East Dulwich Railway Station and turn left along the main road. Just before the Fish and Chip Shop turn left into St Francis Road. At the end of this road walk along the short pathway in front and turn right into Abbotswood Road. The ground is along this road on the left next to the Sainsbury's."
-            teamDrinkInfo = "There is a Club House at the ground which welcomes away fans. Otherwise, if you turn right out of East Dulwich station, then there is the Cherry Tree pub down on the left."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Eastbourne Borough" {
             stationCode = "PEV"
             stadiumLat = 50.80416
@@ -306,14 +290,6 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: BN23 7QH\n\nLeave the A27 onto the A22 towards Stone Cross and Westham. At the next roundabout take the first exit towards Stone Cross and Westham. Continue towards Stone Cross until you will come to a crossroads, with a church and a pub. Turn right just past the pub onto the B2104 Friday Street. At the end of Friday Street, turn left at the double mini-roundabout into Hide Hollow. After passing the Crematorium, turn right at the roundabout into Priory Road. The entrance to the ground is down on the left."
             teamTrainInfo = "Take the train to Pevensey and Westham Station. Turn left out of the station towards the industrial units and keep walking alongside the fields, then left at the roundabout into Priory Road for the ground."
             teamDrinkInfo = "There is a Club House at the ground, however, for larger games this may be for home fans only. Otherwise there are three pubs within a 20 minute walk of the ground, the Martello Inn on Langney Rise, the Kingfisher Tavern at the Langney Shopping Centre, and the Friday Street Farm on Friday Street."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Ebbsfleet Utd" {
-            stationCode = "NFL"
-            stadiumLat = 51.44953
-            stadiumLon = 0.32231
-            teamCarInfo = "Sat Nav Postcode: DA11 9GN\n\nLeave the M25 at Junction 2 and take the A2 towards Gillingham. Turn off the A2 and take the B262 towards Stone and Greenhithe. At the end of the B262 turn right onto the A226 towards Gravesend & Northfleet. Stay on this road until you reach the ground on your left."
-            teamTrainInfo = "Exit Northfleet Station and turn left at the top of the road. You should be able to see the ground from here, down on the right."
-            teamDrinkInfo = "The Fleet Lounge Club Bar is inside the ground, and open away fans unless segregation is in force. Near Swanscombe Railway Station you can find the George and Dragon, and towards Northfleet the Edinburgh Castle is on the High Street."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Farnborough" {
             stationCode = "FNB"
@@ -347,22 +323,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Hemel Hempstead Railway Station is over two miles away from the ground so the best bet is to take a taxi to the ground. You can take the bus but you would need to take a bus from the railway station to the Riverside Bus Station. The Number 301 goes closest to the ground, along Longlands to the end of Vauxhall Road."
             teamDrinkInfo = "There is a Club House inside the ground which admits away fans. Otherwise a five-minute walk away on Leverstock Green Road is the Crabtree pub."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Hungerford Town" {
-            stationCode = "HGD"
-            stadiumLat = 51.40893
-            stadiumLon = -1.51346
-            teamCarInfo = "Sat Nav Postcode: RG17 0AY\n\nLeave the M4 at junction 14 and take the A338 towards Hungerford. On entering Hungerford at the roundabout take the second exit towards the Town Centre. At the next roundabout take the first exit towards Marlborough, at the next roundabout take the first exit towards Town Centre. Continue straight on through the town centre and then after around a mile turn left at the mini roundabout into Priory Road. Take the third left into Bulpit Lane and after going straight ahead at the crossroads the ground is on the left."
-            teamTrainInfo = "Exit the Station and walk up to the Railway Tavern pub. Turn left and walk to the top of the hill, turn right then first left into Fairview Road. Walk on past the Primary School and take the second left into Bulpit Lane. The ground is a short walk down on the left."
-            teamDrinkInfo = "There is a Club House inside the ground which admits away fans. Otherwise the nearest pub to the ground is the Borough Arms on the High Street."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Oxford City" {
-            stationCode = "OXF"
-            stadiumLat = 51.77391
-            stadiumLon = -1.22772
-            teamCarInfo = "Sat Nav Postcode: OX3 0NQ\n\nFrom the North leave the M40 at Junction 9 and take the A34 towards Oxford. Stay on the A34 for 7 miles until you reach the A44/A40 junction. Leave the A34 and take the ring road towards London. At the next roundabout take the second exit staying on the ring road, which is now the A40. Stay on the A40 for two miles and then exit at the Marston and Hospital junction. Follow the slip road around and over the A40 onto Marsh Lane. The ground is down on the left.\n\nFrom the South leave the M40 at Junction 8 and take the A40 towards Oxford. Follow the A40 for 7 miles and then exit at the Marston and Hospital junction.  Turn on to Marsh Lane and the ground is down on the left."
-            teamTrainInfo = "Oxford Railway Station is over three miles away from the ground so the only option is to jump in a taxi."
-            teamDrinkInfo = "There is a Club House inside the ground. Otherwise there are no pubs near the ground."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Maidstone Utd" {
+            stationCode = "MDE"
+            stadiumLat = 51.28002
+            stadiumLon = 0.51610
+            teamCarInfo = "Sat Nav Postcode: ME14 1LQ\n\nLeave the M20 at Junction 6 and take the A229 towards Maidstone. Go straight across two roundabouts and at the third roundabout take the third exit into James Whatman Way. The ground is right in front of you. At the T-junction turn left and the entrance is further down on the right."
+            teamTrainInfo = "Exit Maidstone East Station and walk up Station Approach to the main road. At the main road turn left and then go straight across the next two roundabouts, the ground is in front of you. Turn left at the T-Junction and the main entrance is down on the right."
+            teamDrinkInfo = "There is a supporters club at the ground which admits away fans. The Flower Pot Pub on Sandling Road is also a good option. The Swan Pub is close to the railway station on County road, or the town centre is about ten minutes away with several options for food and drink."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/maidstone-united/scores-fixtures/"
         } else if teamName == "Slough Town" {
             stationCode = "SLO"
             stadiumLat = 51.519846
@@ -387,6 +355,22 @@ class TeamViewController: UITabBarController {
                 teamTrainInfo = "Exit the station onto Station Road and head south towards the river and the County Cricket Ground.  At the Ale House pub turn left onto Priory Bridge Road and continue over the river and past the cricket ground. After Brewers Diy Store turn right into Winchester Street, cross over Priory Street and at the end of Winchester Street walk between the gap in the houses into Haydon Road. Continue to the end of Haydon Road and turn left onto E Reach. Follow the road right into Wordsworth Drive continue past the turning for Hamilton Road and the ground is on the left."
                 teamDrinkInfo = "The nearest pubs to the ground are The Somerset Inn on Alfred Street or The Master Thatcher past the ground on Lisieux Way.  There are also plenty of food and drink options in the town centre if you are walking from the station."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Torquay Utd" {
+            stationCode = "TRR"
+            stadiumLat = 50.47681
+            stadiumLon = -3.52244
+            teamCarInfo = "Sat Nav Postcode: TQ1 3PS\n\nAt the end of the M5 continue on to the A38 until it splits, taking the A380 towards Torquay.  Continue until the Penn Inn roundabout and take the second exit onto the A3022.  Follow the A3022 until the next roundabout, and take the first exit onto Riviera Way.  Continue on Riviera Way until a large crossroads with traffic lights and turn left into Hele Road.  After the second roundabout turn left, followed by an immediate right into Westhill Road. Continue up Westhill Road and straight over into Warbro Road for the ground."
+            teamTrainInfo = "Torquay Station is too far to walk so taxi is the best bet.  Torre Station is, however, closer.  Exit the station and walk up Newton Road, left into Upton Road and right into Lymington Road.  Continue up Lymington Road, which becomes Upton Hill.  At the end turn left into St Mary Church Road and right into Bronshill Road.  Finally turn left into Westlands Road for the ground."
+            teamDrinkInfo = "The closest pub to the ground is O'Connors, about five minutes away on Marychurch Road.  The George Inn and the Dog and Duck, both on Babacombe Road also admit away fans."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/torquay-united/scores-fixtures"
+        } else if teamName == "Truro City" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Tonbridge Angels" {
             stationCode = "TON"
             stadiumLat = 51.211187
@@ -402,6 +386,14 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: DA16 1SY\n\nLeave the M25 at Junction 2 and take the A2 towards Central London. Leave the A2 at the third exit and take the A221 towards Bexleyheath. At the next roundabout turn right and continue towards Bexleyheath. At the next roundabout take the second exit into Danson Road. Follow Danson Road until your reach a T-junction and at these traffic lights turn left into Park View Road. The ground is down on the left."
             teamTrainInfo = "Exit the Station and walk down the access road, at the bottom turn left into Central Avenue which leads onto a T-Junction with Bellegrove Road. Turn left and walk straight along Bellegrove Road which leads into the High Street. The ground is further down the High Street on the right."
             teamDrinkInfo = "There is a Social Club at the ground that admits away fans. Otherwise the ‘Guy Earl of Warwick’ is right next to the ground. Further along the High Street there are a number of pubs including the Rose & Crown, the Nag's Head and a Wetherspoons."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Weston-super-Mare" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Weymouth" {
             stationCode = "WEY"
@@ -419,6 +411,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Worthing Station onto Station Approach and then turn right into Cross Street.  At the end of Cross Street turn right onto S Farm Road and walk over the level crossing, then take the second left into Henty Road. The ground is at the end of Henty Road on Woodside Road."
             teamDrinkInfo = "The Woodside Bar at the ground is the nearest pub, or the Brooksteed Alehouse on S Farm Road is a good bet if you are walking from the railway station."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Yeovil Town" {
+            stationCode = "YVJ"
+            stadiumLat = 50.95022
+            stadiumLon = -2.67471
+            teamCarInfo = "Sat Nav Postcode: BA22 8YF\n\nLeave the A303 and take the A3088 towards Yeovil. After four miles turn left at the roundabout and continue straight on. At the second roundabout turn left into Lufton Way. Follow Lufton Way round to the ground"
+            teamTrainInfo = "Both Railway Stations that serve Yeovil are too far from the ground to walk, so taxi or bus is the best option."
+            teamDrinkInfo = "There aren't really any pubs in the immediate area of the ground. On the way into Yeovil on Bluebell Road (left at the first roundabout after the A3088) is the Airfield Tavern, or on Preston Road (right at the second roundabout after the A3088) is the Bell Inn."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/yeovil-town/scores-fixtures"
         } else {
             stationCode = "VIC"
             stadiumLat = 0.0
@@ -432,23 +432,7 @@ class TeamViewController: UITabBarController {
     
     // MARK: National League North Team Data
     func loadNationalLeagueNorthData() {
-        if teamName == "AFC Fylde" {
-            stationCode = "KKM"
-            stadiumLat = 53.79738
-            stadiumLon = -2.88953
-            teamCarInfo = "Sat Nav Postcode: PR4 3JZ\n\nLeave the M55 at Junction 3 and take the A585 towards Kirkham. After a mile you reach the Stadium on your right. The entrance is just off the roundabout by Aldi."
-            teamTrainInfo = "Exit Kirkham & Wesham Station with the main entrance behind you. Turn right and walk along Station Road. Go straight across the roundabout and at the next roundabout turn right into Garstang Road North. Continue along this road and at the end you will reach another roundabout, the ground is on the other side of the road behind Aldi."
-            teamDrinkInfo = "At the Stadium itself is Bradley’s Sports Bar, which normally admits away fans. The nearest pub to the ground is the Lane Ends pub on Weeton Road, around a ten-minute walk. In the centre of nearby Wesham, near the railway station are two pubs on Garstang Road, The Royal Oak and The Stanley Arms."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "AFC Telford Utd" {
-            stationCode = "WLN"
-            stadiumLat = 52.697355
-            stadiumLon = -2.501384
-            teamCarInfo = "Sat Nav Postcode: TF1 2TU\n\nTake the M54 towards Telford, and leave at Junction 6. Turn right at the roundabout and go past a supermarket on your left, then straight over two roundabouts. At the third roundabout turn left. The entrance to the ground is down this road on your right."
-            teamTrainInfo = "Exit the station and walk up to the top of the station approach road and turn left. At the subway in front of you branch left along New Street. Cross over the road and walk up the High Street. When you reach the mini roundabout keep left, still walking along High Street until it becomes Mill Bank. Walk along this road until you reach the Hotel and turn left. The ground is down this road on the left."
-            teamDrinkInfo = "There is a bar in the Whitehouse Hotel, which is next to the ground. Otherwise the nearest pubs are the Cock Hotel and the Swan Hotel, which are both a five-minute walk from the stadium on the way from the railway station."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Alfreton Town" {
+        if teamName == "Alfreton Town" {
             stationCode = "ALF"
             stadiumLat = 53.094497
             stadiumLon = -1.381247
@@ -463,6 +447,14 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: OX16 5AB\n\nLeave the M40 at Junction 11 and take the A442 towards Banbury. At the second roundabout turn left onto the A4260 Concord Avenue, and then at the next roundabout continue straight on until you reach the junction with Bridge Street. At the junction turn left onto Bridge Street and then take the first right down to the Station (Signposted Station and Car Park West). Follow the road past the station and industrial estate to the end where you will fund the ground."
             teamTrainInfo = "Leave Banbury Station using the exit at Platform 1 into the small open air station car park. Walk through the car park towards the small industrial estate. Follow the road alongside the industrial estate until you reach the ground, which is tucked in at the end of the estate."
             teamDrinkInfo = "There are no pubs near to the ground, with the closets pub The Bell on Middleton Road, up past the station.  Alternatively, if you head into Banbury Town Centre before the game there are plenty of options on The High Street and Parsons Street."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Bishops Stortford" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Blyth Spartans" {
             stationCode = "CRM"
@@ -487,14 +479,6 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: NN13 7EJ\n\nLeave the M40 at Junction 11 and take the A422 towards Brackley. Stay on the A422 for about nine miles until you reach the roundabout with the A43. Take the first exit towards Brackley Town Centre. Continue straight across the next roundabout and after passing a pub on your left take the next right into Churchill Way. The ground at the bottom of this road."
             teamTrainInfo = "There is no railway station in Brackley so the nearest station is in Banbury. To get from Banbury take the number 500 Stagecoach bus from Banbury Bus Station Bay 5.  this journey takes around 40 minutes and runs every half an hour.  There is no return service available for evening games."
             teamDrinkInfo = "There is a Social Club at the ground which admits away supporters. Otherwise the nearest pub is the Locomotive Inn at the end of Churchill Way."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Bradford Park Ave" {
-            stationCode = "LMR"
-            stadiumLat = 53.758856
-            stadiumLon = -1.776175
-            teamCarInfo = "Sat Nav Postcode: BD6 2NG\n\nLeave the M62 at Junction 26 and take the M606 towards Bradford. Just before the end of the M606 take the left-hand slip road signposted Ring Road West A6177. At the roundabout at the top of the slip road take the second exit towards Halifax (A6036). Passing the Odsal Stadium on your left at the next roundabout take the 3rd exit continuing on the A6036 towards Halifax. After a mile turn left into Cemetery Road. The ground is down on the left."
-            teamTrainInfo = "Exit the station and turn left, walking along New Works Road through the Industrial Estate. Continue past the Pub on your left and on reaching the end of New Works Road turn right and then immediately turn left into Abb Scott Lane. At the mini roundabout bear left walking along Abb Scott Lane. Take the second right into Cemetery Road and the ground is further up on the right after the park."
-            teamDrinkInfo = "There is a bar at the stadium which admits away fans. Otherwise there are three pubs within a five-minute walk of the ground. On Huddersfield Road there is the 'Drop Kick' and the 'British Queen'. On Halifax Road there is the 'Northern' pub."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Buxton" {
             stationCode = "BUX"
@@ -560,22 +544,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Hereford Station and head down Station Approach to Commercial Road.  Turn right onto Commercial Road, and then right again onto Monkmoor Street (which becomes Canal Road).  Turn left into Coningsby Street, walk to the end and then cross over Widemarsh Street into Blackfriars Street for the ground."
             teamDrinkInfo = "The Oxford Arms, by the main car park, admits away fans.  Otherwise the ground is in the centre of town, with plenty of good pubs nearby."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Kettering Town" {
-            stationCode = "KET"
-            stadiumLat = 52.366815
-            stadiumLon = -0.689306
-            teamCarInfo = "Sat Nav Postcode: NN15 5PS\n\nLeave the A14 at Junction 10 and take the A6 towards Bedford. At the next roundabout take the second exit towards Latimer Business Park. At the next roundabout take the third exit and follow the road round passing the Morrisons Distribution Centre on the left and then the Weetabix Factory on the right. The entrance to the ground is further down on the left."
-            teamTrainInfo = "Kettering Railway Station is just over three miles away from the ground and is really too far to walk. The Stagecoach Bus No 49 (towards Wellingborough) or No 50 (towards Rushden) both go past the ground entrance on Polwell Lane and nearby Station Road. The Bus Interchange on London Road is around a ten-minute walk from the station. Otherwise there is a taxi rank outside the Station."
-            teamDrinkInfo = "There is a Club House at the ground that admits away fans. Otherwise, there are no pubs close to the ground."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        } else if teamName == "Kidderminster Harriers" {
-            stationCode = "KID"
-            stadiumLat = 52.380471
-            stadiumLon = -2.242657
-            teamCarInfo = "Sat Nav Postcode: DY10 1NB\n\nLeave M5 at junction 4 towards Stourbridge. After 5 miles, turn left onto the A456 towards Kidderminster.  At the roundabout with the Kidderminster Ring Road take first exit (signposted Stourport).  At next roundabout, take first exit towards Bromsgrove, and then take first right into Hoo Road for the ground."
-            teamTrainInfo = "Exit the Station and go past the Severn Valley Railway Station on your left. Walk down the hill and turn left into Hoo Road, the ground is up this road on the left."
-            teamDrinkInfo = "There is a supporters club at the ground which admits away fans.  There is also a pub behind the Reynolds Stand called the Harriers Arms. Otherwise, the King & Castle located inside the Severn Valley Railway Station is a good option if arriving by train."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Kings Lynn Town" {
             stationCode = "KLN"
             stadiumLat = 52.750118
@@ -584,14 +552,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit the station and turn left. Where you see the church in front of you take the pathway around to the left and walk through the park. The ground is over on your right."
             teamDrinkInfo = "There is a bar inside the ground which admits away fans. Otherwise there is the Live and Let live on Windsor Road and Lord Napier on Guanock Terrace. There is also a Wetherspoons pub in the town centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/kings-lynn-town/scores-fixtures"
-        } else if teamName == "Leamington" {
-            stationCode = "LMS"
-            stadiumLat = 52.244301
-            stadiumLon = -1.502844
-            teamCarInfo = "Sat Nav Postcode: CV33 9SA\n\nLeave the M40 at Junction 14 and follow A452 towards Leamington. Go over the first roundabout and at the second take the 2nd exit, signposted Leamington. At the next roundabout take the 4th exit, signposted Bishop's Tachbrook. Go straight across the traffic lights towards Harbury, and after about a mile and a half you reach the entrance to the ground on the left."
-            teamTrainInfo = "Leamington Spa Railway Station is located around three miles away from the ground so is too far to walk. The club have in the past run a bus from the station to the ground, so check on their website for up to date information. Otherwise a taxi to the ground is the best option."
-            teamDrinkInfo = "Brakes Bar inside the ground normally admits away fans, unless segregation is in force. There are no other pubs in the area."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Peterborough Sports" {
             stationCode = "PBO"
             stadiumLat = 52.593814
@@ -600,6 +560,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Peterborough Station is about one and a half miles from the ground.\nLeave the station and turn left heading towards the station car park. when you reach the car park walk alongside the dual carriageway (A15) until you reach the next roundabout. Cross over Westfield Road and then cross over the dual carriageway and head for the quieter Borgues Blvd. Continue North, crossing over Maskew Avenue until Borges Blvd becomes Lincoln Road. The ground is down the next right before the car wash."
             teamDrinkInfo = "The nearest pub to the ground is The Crown on Lincoln Road, towards the A47 on the corner of Crown Street.  There are also plenty of food options along Lincoln Road towards the City Centre."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Rushall Olympic" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Scarborough Athletic" {
             stationCode = "SCA"
             stadiumLat = 54.268851
@@ -607,6 +575,22 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: YO11 2JW\n\nTake the A64 towards Scarborough, as you reach Scarborough you will pass the Park and Ride, and then a retail park on your right. Continue on the A64 Seamer Road until you reach a large junction by a church. Turn right at the church onto Valley Road, going straight over the roundabout. After crossing over the railway line turn right into Ashburn Road. Follow Ashburn Road for about half a mile to the ground."
             teamTrainInfo = "Leave the Station and turn left onto Westborough. Take the third right into Belgrave Terrace, cross over the railway line, and turn right at the end onto Westwood. Take the second left onto Westwood Road and continue to the end where it meets Valley Road. Next take the second right into Ashburn Road and follow this down to the ground."
             teamDrinkInfo = "The nearest pub to the ground is Cellars Bar on Valley Road, between the Station and the ground. There are also a number of options on Falsgrave Road."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Scunthorpe Utd" {
+            stationCode = "SCU"
+            stadiumLat = 53.5872359
+            stadiumLon = -0.6948787
+            teamCarInfo = "Sat Nav Postcode: DN15 8TD\n\nFrom the M180 Junction 3 take the M181. At the end of the M181 turn right onto the A18 (Doncaster Road) and then first right for the ground."
+            teamTrainInfo = "Scunthorpe Station is about 2 miles away so taxi is the easiest option. To walk turn left out of the station go straight over at Oswald Road into Church Lane, following this to the A18 (Kingsway). Follow Kingsway to the roundabout where it become Doncaster Road, which leads to the ground."
+            teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/scunthorpe-united/scores-fixtures"
+        } else if teamName == "South Shields" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else if teamName == "Southport" {
             stationCode = "MEC"
@@ -623,6 +607,22 @@ class TeamViewController: UITabBarController {
             teamCarInfo = "Sat Nav Postcode: DL16 6JN\n\nLeave the A1(M) at Junction 60 and take the A689 towards Bishop Auckland. At the next roundabout take the third exit onto the A167 then at the next roundabout take the first exit signposted Kirk Merrington. At the end of the road turn left and then at the next T-Junction turn right. At the next roundabout take the first exit towards Spennymoor and then at the roundabout with the A688, take the third exit towards the town centre. At the next roundabout take the third exit into the High Street and then turn left just before the pedestrian area. At the next roundabout take the first exit onto Durham Road.  The entrance to the ground is the third road on the left."
             teamTrainInfo = "There is no Railway Station in Spennymoor. The nearest station is in Durham which is around six miles away. The Number 6 Bus from Durham Bus Station, which takes around 20 minutes, goes to Spennymoor. Otherwise the only other option is a Taxi."
             teamDrinkInfo = "There is a supporters Marquee behind the North Stand which admits visiting supporters. Otherwise the nearest pub is the Moors Tavern a few minutes’ walk away on Durham Road, towards the town centre.  Further on towards the town centre, on Cheapside, is a Wetherspoons pub."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Tamworth" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        } else if teamName == "Warrington Town" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         } else {
             stationCode = "VIC"
