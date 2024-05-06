@@ -118,6 +118,15 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Halifax Station and turn left into Church Street, keep walking straight on passing the Three Pigeons Pub. The ground is on the right."
             teamDrinkInfo = "The South Stand Bar supports club at the ground admits away fans, but only has a 200 capacity. The Three Pigeons is the closest pub to the ground on Sun Fold Road. Otherwise there are plenty of options for food and drink in the Town Centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/halifax/scores-fixtures"
+        } else if teamName == "Forest Green Rovers" {
+            stationCode = "STD"
+            stadiumLat = 51.699104
+            stadiumLon = -2.237933
+            //teamStadiumName = "The New Lawn"
+            teamCarInfo = "Sat Nav Postcode: GL6 0ET\n\nForest Green Rovers play in the town of Nailsworth. Take the A46 Bath Road into Nailsworth and turn onto Spring Hill following the sign to Forest Green. Spring Hill becomes Nympsfield Road, go over the first roundabout and then turn left at the second roundabout onto Another Way for the ground. There is plenty of on street parking in the area.  Another option is to use the Club Park and Ride, this can be found on the A46 Stroud Road at Renishaw plc."
+            teamTrainInfo = "The nearest railway station is Stroud, well over five miles away so a taxi will be your best bet. You can also get the Number 63 Bus from Stroud to Nailsworth."
+            teamDrinkInfo = "The club sometimes set up a small marquee serving drinks near the away turnstiles. The George on Newmarket Road is the closest to the ground, otherwise there are several pubs in the centre of Nailsworth."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/forest-green-rovers/scores-fixtures"
         } else if teamName == "Gateshead" {
             stationCode = "NCL"
             stadiumLat = 54.96094
@@ -190,6 +199,15 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Prittlewell, and exit the Station onto East Street. Turn right at the junction with Victoria Avenue and the ground is on the left hand side.  To get to the away turnstiles walk down Victoria Avenue past the main entrance and turn left into Fairfax Drive. The away entrance is on the left."
             teamDrinkInfo = "The only real option for away fans is the Railway Tavern outside Prittlewell Railway Station.\n\nAlcohol is not available to away fans inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southend-united/scores-fixtures"
+        } else if teamName == "Sutton Utd" {
+            stationCode = "WSU"
+            stadiumLat = 51.36759
+            stadiumLon = -0.20429
+            //teamStadiumName = "VBS Community Stadium"
+            teamCarInfo = "Sat Nav Postcode: SM1 2EY\n\nLeave the M25 at Junction 8 and take the A217 towards Sutton. When you reach a small roundabout, bear left continuing on the A217 towards Central London. At the second set of traffic lights turn right into Gander Green Lane. The ground is up here on the left."
+            teamTrainInfo = "Exit West Sutton Railway Station and turn right. The ground is on the right about two minutes away."
+            teamDrinkInfo = "At the ground there is a Social Club which admits away fans, and on the A217 you will find the Gander Pub. Otherwise there are several pubs in Sutton town centre."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sutton-united/scores-fixtures"
         } else if teamName == "Wealdstone" {
             stationCode = "WRU"
             stadiumLat = 51.569408
