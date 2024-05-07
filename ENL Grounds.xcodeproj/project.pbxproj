@@ -10,6 +10,7 @@
 		14060B56227C54820019EB07 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B48227C54820019EB07 /* WebKit.framework */; };
 		14060B59227C54820019EB07 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B4B227C54820019EB07 /* MapKit.framework */; };
 		14060B60227C54820019EB07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14060B52227C54820019EB07 /* CoreLocation.framework */; };
+		145144D62BEA21850020CECC /* TeamDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145144D52BEA21850020CECC /* TeamDetails.swift */; };
 		14608A21284B7FD300CDD37D /* SupportUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14608A20284B7FD300CDD37D /* SupportUsViewController.swift */; };
 		14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14608A22284B7FE300CDD37D /* IAP Manager.swift */; };
 		14608A25284B8B9F00CDD37D /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14608A24284B8B9F00CDD37D /* ProductIds.plist */; };
@@ -33,6 +34,7 @@
 		14060B48227C54820019EB07 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		14060B4B227C54820019EB07 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		14060B52227C54820019EB07 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		145144D52BEA21850020CECC /* TeamDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetails.swift; sourceTree = "<group>"; };
 		14608A20284B7FD300CDD37D /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
 		14608A22284B7FE300CDD37D /* IAP Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP Manager.swift"; sourceTree = "<group>"; };
 		14608A24284B8B9F00CDD37D /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				52DCE213227B6253006C1C72 /* TrainsViewController.swift */,
 				52DCE211227B6235006C1C72 /* MapViewController.swift */,
 				52DCE20F227B6029006C1C72 /* TeamViewController.swift */,
+				145144D52BEA21850020CECC /* TeamDetails.swift */,
 				52DCE20B227B5E40006C1C72 /* NationalLeagueSouthTableViewController.swift */,
 				52DCE20D227B5E4D006C1C72 /* NationalLeagueNorthTableViewController.swift */,
 				52DCE209227B5E29006C1C72 /* NationalLeagueTableViewController.swift */,
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145144D62BEA21850020CECC /* TeamDetails.swift in Sources */,
 				5239811C22776C930066EF4C /* ViewController.swift in Sources */,
 				14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */,
 				52DCE210227B6029006C1C72 /* TeamViewController.swift in Sources */,

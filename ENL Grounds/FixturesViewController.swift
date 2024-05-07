@@ -16,7 +16,9 @@ class FixturesViewController: UIViewController, WKUIDelegate, WKNavigationDelega
     @IBOutlet weak var loadingSpinner: UIActivityIndicatorView!
      
     func loadFixturesData() {
-        loadingText.text = "Loading Fixtures"
+        loadingText.isHidden = true
+        loadingSpinner.startAnimating()
+        loadingSpinner.isHidden = false
         let fixturesURL = (parent as! TeamViewController).teamFixtures
         let myURL = URL(string: fixturesURL)
         let myRequest = URLRequest(url: myURL!)
@@ -31,25 +33,38 @@ class FixturesViewController: UIViewController, WKUIDelegate, WKNavigationDelega
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        loadingText.isHidden = true
+        loadingSpinner.stopAnimating()
         loadingSpinner.isHidden = true
+        loadingText.isHidden = true
     }
     
     func webView(_ webView: WKWebView,
                  didFailProvisionalNavigation navigation: WKNavigation!,
                  withError error: Error) {
         if(error._code == NSURLErrorNotConnectedToInternet) {
+            NSLog("No Internet Connection")
+            loadingSpinner.stopAnimating()
             loadingSpinner.isHidden = true
-            loadingText.text = "ERROR: No Internet Connction"
+            loadingText.text = "ERROR: No Internet Connection"
+            loadingText.isHidden = false
         }
-        print("Error Loading:")
+        loadingText.text = "ERROR: Unable to load page"
+        loadingText.isHidden = false
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        NSLog("Error Loading:")
         print(error._code)
     }
     
     func webView(_ webView: WKWebView,
                  didFail navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading: Navigation Error")
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        loadingText.text = "ERROR: Unable to load page"
+        loadingText.isHidden = false
+        NSLog("Error Loading: Navigation Error")
+        print(error._code)
     }
 
 }

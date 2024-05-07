@@ -10,7 +10,12 @@ import UIKit
 
 class NationalLeagueSouthTableViewController: UITableViewController {
     
-    var Teams: [String] = ["Aveley","Bath City","Braintree Town","Chelmsford City","Chippenham Town","Dartford","Dover Athletic","Eastbourne Borough","Farnborough","Hampton & Richmond Borough","Havant & Waterlooville","Hemel Hempstead Town","Maidstone Utd","Slough Town","St Albans City","Taunton Town","Tonbridge Angels","Torquay Utd","Truro City","Welling Utd","Weston-super-Mare","Weymouth","Worthing","Yeovil Town"]
+    var Teams: [String] = ["Aveley","Bath City","Chelmsford City","Chippenham Town","Eastbourne Borough","Farnborough","Hampton & Richmond Borough","Hemel Hempstead Town","Maidstone United","Slough Town","St Albans City","Tonbridge Angels","Torquay United","Truro City","Welling United","Weston-super-Mare","Weymouth","Worthing"]
+    
+    /**
+     P - 
+     R - "Dartford","Taunton Town","Havant & Waterlooville","Dover Athletic"
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()

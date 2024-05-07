@@ -17,13 +17,15 @@ class TrainsViewController: UIViewController, WKUIDelegate, WKNavigationDelegate
     @IBOutlet weak var loadingSpinner: UIActivityIndicatorView!
     
     func loadStationData() {
-        loadingText.text = "Loading Train Times"
+        loadingText.isHidden = true
+        loadingSpinner.startAnimating()
+        loadingSpinner.isHidden = false
         let station = (parent as! TeamViewController).stationCode
         if station == "XXX" {
-            let stationURL = "http://tfl.gov.uk"
-            let myURL = URL(string: stationURL)
-            let myRequest = URLRequest(url: myURL!)
-            webView.load(myRequest)
+            loadingSpinner.stopAnimating()
+            loadingSpinner.isHidden = true
+            loadingText.text = "This ground is not close\nto any National Rail Station.\nPlease check the public\ntransport section for other options."
+            loadingText.isHidden = false
         } else {
             var stationURL = "http://m.nationalrail.co.uk/pj/ldbboard/dep/"
             stationURL.append(station)
@@ -34,7 +36,6 @@ class TrainsViewController: UIViewController, WKUIDelegate, WKNavigationDelegate
     }
     
     override func viewDidLoad() {
-        backButtonSetting.isEnabled = false
         webView.navigationDelegate = self
         loadStationData()
         super.viewDidLoad()
@@ -56,17 +57,28 @@ class TrainsViewController: UIViewController, WKUIDelegate, WKNavigationDelegate
                  didFailProvisionalNavigation navigation: WKNavigation!,
                  withError error: Error) {
         if(error._code == NSURLErrorNotConnectedToInternet) {
+            NSLog("No Internet Connection")
+            loadingSpinner.stopAnimating()
             loadingSpinner.isHidden = true
-            loadingText.text = "ERROR: No Internet Connction"
+            loadingText.text = "ERROR: No Internet Connection"
+            loadingText.isHidden = false
         }
-        print("Error Loading:")
+        loadingText.text = "ERROR: Unable to load page"
+        loadingText.isHidden = false
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        NSLog("Error Loading:")
         print(error._code)
     }
     
     func webView(_ webView: WKWebView,
                  didFail navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading: Navigation Error")
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        loadingText.text = "ERROR: Unable to load page"
+        loadingText.isHidden = false
+        NSLog("Error Loading: Navigation Error")
         print(error._code)
     }
     

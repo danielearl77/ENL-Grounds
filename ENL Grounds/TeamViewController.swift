@@ -19,6 +19,9 @@ class TeamViewController: UITabBarController {
     var teamTrainInfo = ""
     var teamDrinkInfo = ""
     var teamFixtures = ""
+    var teamStadiumName = ""
+    
+    /*
     
     // MARK: National League Team Data
     func loadNationalLeagueData() {
@@ -652,12 +655,21 @@ class TeamViewController: UITabBarController {
             teamFixtures = "https://www.bbc.co.uk/sport/football/"
         }
     }
+     
+    */
     
     override func viewDidLoad() {
-        navigationItem.title = teamName
-        if league == "national" {loadNationalLeagueData()}
-        if league == "south" {loadNationalLeagueSouthData()}
-        if league == "north" {loadNationalLeagueNorthData()}
+        navigationItem.title = teamName       
+        let selectedTeamData = TeamDetails.shared.loadTeamDetails(team: teamName)
+        stationCode = selectedTeamData.stationCode
+        stadiumLat = selectedTeamData.stadiumLat
+        stadiumLon = selectedTeamData.stadiumLon
+        teamCarInfo = selectedTeamData.teamCarInfo
+        teamTrainInfo = selectedTeamData.teamTrainInfo
+        teamDrinkInfo = selectedTeamData.teamDrinkInfo
+        teamFixtures = selectedTeamData.teamFixtures
+        teamStadiumName = selectedTeamData.teamStadiumName
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
