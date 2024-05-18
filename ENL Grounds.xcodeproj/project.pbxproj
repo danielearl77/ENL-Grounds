@@ -15,6 +15,7 @@
 		14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14608A22284B7FE300CDD37D /* IAP Manager.swift */; };
 		14608A25284B8B9F00CDD37D /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14608A24284B8B9F00CDD37D /* ProductIds.plist */; };
 		14608A27284B8D7E00CDD37D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14608A26284B8D7E00CDD37D /* StoreKit.framework */; };
+		148564742BF8954500A630C9 /* OldTeamDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148564732BF8954500A630C9 /* OldTeamDetails.swift */; };
 		5239811A22776C930066EF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239811922776C930066EF4C /* AppDelegate.swift */; };
 		5239811C22776C930066EF4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239811B22776C930066EF4C /* ViewController.swift */; };
 		5239811F22776C930066EF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5239811D22776C930066EF4C /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		14608A22284B7FE300CDD37D /* IAP Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP Manager.swift"; sourceTree = "<group>"; };
 		14608A24284B8B9F00CDD37D /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
 		14608A26284B8D7E00CDD37D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		148564732BF8954500A630C9 /* OldTeamDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTeamDetails.swift; sourceTree = "<group>"; };
 		5239811622776C930066EF4C /* ENL Grounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENL Grounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5239811922776C930066EF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5239811B22776C930066EF4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				52DCE211227B6235006C1C72 /* MapViewController.swift */,
 				52DCE20F227B6029006C1C72 /* TeamViewController.swift */,
 				145144D52BEA21850020CECC /* TeamDetails.swift */,
+				148564732BF8954500A630C9 /* OldTeamDetails.swift */,
 				52DCE20B227B5E40006C1C72 /* NationalLeagueSouthTableViewController.swift */,
 				52DCE20D227B5E4D006C1C72 /* NationalLeagueNorthTableViewController.swift */,
 				52DCE209227B5E29006C1C72 /* NationalLeagueTableViewController.swift */,
@@ -202,6 +205,7 @@
 				14608A23284B7FE300CDD37D /* IAP Manager.swift in Sources */,
 				52DCE210227B6029006C1C72 /* TeamViewController.swift in Sources */,
 				52DCE20A227B5E29006C1C72 /* NationalLeagueTableViewController.swift in Sources */,
+				148564742BF8954500A630C9 /* OldTeamDetails.swift in Sources */,
 				52DCE20E227B5E4D006C1C72 /* NationalLeagueNorthTableViewController.swift in Sources */,
 				52DCE20C227B5E40006C1C72 /* NationalLeagueSouthTableViewController.swift in Sources */,
 				14608A21284B7FD300CDD37D /* SupportUsViewController.swift in Sources */,
