@@ -222,7 +222,76 @@ class OldTeamDetails: NSObject {
                     teamDrinkInfo = "There is a Club House at the ground that admits away fans. Otherwise, there are no pubs close to the ground."
                     teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
                 }
-
+        else if team == "Rushall Olympic" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamStadiumName = ""
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
+        else if team == "Warrington Town" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamStadiumName = ""
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
+        else if team == "Aveley" {
+            stationCode = "XXX"
+            stadiumLat = 0.0
+            stadiumLon = 0.0
+            teamStadiumName = ""
+            teamCarInfo = "ERROR"
+            teamTrainInfo = "ERROR"
+            teamDrinkInfo = "ERROR"
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
+        else if team == "Welling United" {
+            stationCode = "WLI"
+            stadiumLat = 51.460318
+            stadiumLon = 0.116550
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: DA16 1SY\n\nLeave the M25 at Junction 2 and take the A2 towards Central London. Leave the A2 at the third exit and take the A221 towards Bexleyheath. At the next roundabout turn right and continue towards Bexleyheath. At the next roundabout take the second exit into Danson Road. Follow Danson Road until your reach a T-junction and at these traffic lights turn left into Park View Road. The ground is down on the left."
+            teamTrainInfo = "Exit the Station and walk down the access road, at the bottom turn left into Central Avenue which leads onto a T-Junction with Bellegrove Road. Turn left and walk straight along Bellegrove Road which leads into the High Street. The ground is further down the High Street on the right."
+            teamDrinkInfo = "There is a Social Club at the ground that admits away fans. Otherwise the ‘Guy Earl of Warwick’ is right next to the ground. Further along the High Street there are a number of pubs including the Rose & Crown, the Nag's Head and a Wetherspoons."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
+        else if team == "Weymouth" {
+            stationCode = "WEY"
+            stadiumLat = 50.619885
+            stadiumLon = -2.484928
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: DT4 9XJ\n\nTake the A354 towards Weymouth, and on entering Weymouth you reach the Veasta Roundabout. Take the second exit, still on the A354, signposted to Portland. At the next roundabout passing a Supermarket on your left take the second exit continuing towards the Town Centre. At the next roundabout take the third exit into Granby Way. At the next roundabout take the third exit (signposted Dorset Police HQ) and then immediately left for the entrance to the ground."
+            teamTrainInfo = "Weymouth Railway Station is just under two miles away from the ground. For weekend games you can catch the No.3 First Bus towards Hereford Road. Get off at Radipole Lane which is a short walk along Radipole Lane to the ground. The bus stop can be found on King Street, otherwise a taxi is the only other option."
+            teamDrinkInfo = "The ‘Terras Tavern' at the ground admits away fans unless segregation is in force. There is not much else near the ground itself, the nearest pub is the ‘John Gregory’ which is half a mile away off the Wessex Roundabout. The only other option is to head into Weymouth Town Centre."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/weymouth/scores-fixtures"
+        }
+        else if team == "St Albans City" {
+            stationCode = "SAC"
+            stadiumLat = 51.754264
+            stadiumLon = -0.325159
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: AL1 4PL\n\nLeave the M1 at Junction 7 and take the M10 towards St Albans. At the end of the M10, go straight across the first roundabout and at the next roundabout turn left onto the A1081. Continue along the A1081 until you reach a small roundabout, turn right into Alma Road. At the traffic lights turn right into Victoria Street, passing the railway station on your left, and follow the road around to the left. At the next traffic lights go straight on into Clarence Road. A short way up Clarence Road, turn left for the entrance to the Football & Cricket grounds."
+            teamTrainInfo = "Exit the Station on the east side and turn left along Station Way. At the top of the road turn right into Hatfield Road. Walk down to the traffic lights and turn left into Clarence Road, then left again for the ground."
+            teamDrinkInfo = "There is a Club House at the ground which admits away fans. Otherwise the nearest pub to the ground is the Crown, which is a five minute walk away on Clarence Road."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
+        else if team == "Farsley Celtic" {
+            stationCode = "NPD"
+            stadiumLat = 53.809180
+            stadiumLon = -1.665607
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: LS28 5BE\n\nLeave the M62 at Junction 28 and take the A653 towards Leeds. After you've passed the White Rose Shopping Centre on your left, keep left where the road forks onto the Ring Road. Continue on the A6110 Ring Road passing underneath the M621, following signs for Bradford. This becomes the Stanningley By-Pass (A647) towards Bradford. At the next roundabout take the third exit onto the B6157 Bradford Road towards Farsley. Continue down Bradford Road and then turn left just past the Carstar garage into New Street. Take the third right into Newlands Road and the ground is at the end on the left."
+            teamTrainInfo = "Exit New Pusdey Station and immediately turn right and then right again taking the pathway along the side of the railway. Walk along this path until you reach an underpass on the left under the railway, where you turn left. Once on the other side cross the road and turn left along the path with railings on either side. At the top of the road turn right and then turn left just past the Carstar garage into New Street. Take the third right into Newlands Road and the ground is at the end of the road on the left."
+            teamDrinkInfo = "There is a Club House at the ground which normally admits away fans. The nearest pub is the Jug & Barrel on Town Street, around a five-minute walk away.  There are also a few Pubs further along Town Street towards the centre of Farsley."
+            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
+        }
         
         else if team == "Truro City" {
             stationCode = ""

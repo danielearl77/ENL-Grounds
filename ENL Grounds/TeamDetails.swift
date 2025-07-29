@@ -74,26 +74,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "Next to the ground is the Community Sports Hall, which has a bar inside that admits away fans. Otherwise the nearest pub is the King George on Moss Lane, or Altrincham town centre is around a 15-minute walk away."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/altrincham/scores-fixtures"
         }
-        else if team == "Aveley" {
-            stationCode = "XXX"
-            stadiumLat = 0.0
-            stadiumLon = 0.0
-            teamStadiumName = ""
-            teamCarInfo = "ERROR"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
-        else if team == "Barnet" {
-            stationCode = "XXX"
-            stadiumLat = 51.64584
-            stadiumLon = -0.19298
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: HA8 6AG\n\nLeave the M25 at Junction 23 and take the A1081 (St. Albans Road) towards Barnet.  At the lights, turn right into the High Street past High Barnet Station.  Just before the rail bridge, turn right into Underhill, and then first left into Barnet Lane for the ground."
-            teamTrainInfo = "Take the Northern Line to High Barnet Station.  Turn left out of the station, and walk down the hill to the Red Lion pub.  An alleyway in front of the pub leads to Westcombe Drive for the ground."
-            teamDrinkInfo = "The Old Red Lion, at the north end of the ground is the popular away fans pub, however, most pub in the area are welcoming to away fans."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/barnet/scores-fixtures"
-        }
         else if team == "Bath City" {
             stationCode = "OLF"
             stadiumLat = 51.37889
@@ -294,16 +274,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "There are not really any pubs near the ground. However, at the ground there is a large Bar and Restaurant venue called The Cherrywood that is open seven days a week."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         }
-        else if team == "Farsley Celtic" {
-            stationCode = "NPD"
-            stadiumLat = 53.809180
-            stadiumLon = -1.665607
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: LS28 5BE\n\nLeave the M62 at Junction 28 and take the A653 towards Leeds. After you've passed the White Rose Shopping Centre on your left, keep left where the road forks onto the Ring Road. Continue on the A6110 Ring Road passing underneath the M621, following signs for Bradford. This becomes the Stanningley By-Pass (A647) towards Bradford. At the next roundabout take the third exit onto the B6157 Bradford Road towards Farsley. Continue down Bradford Road and then turn left just past the Carstar garage into New Street. Take the third right into Newlands Road and the ground is at the end on the left."
-            teamTrainInfo = "Exit New Pusdey Station and immediately turn right and then right again taking the pathway along the side of the railway. Walk along this path until you reach an underpass on the left under the railway, where you turn left. Once on the other side cross the road and turn left along the path with railings on either side. At the top of the road turn right and then turn left just past the Carstar garage into New Street. Take the third right into Newlands Road and the ground is at the end of the road on the left."
-            teamDrinkInfo = "There is a Club House at the ground which normally admits away fans. The nearest pub is the Jug & Barrel on Town Street, around a five-minute walk away.  There are also a few Pubs further along Town Street towards the centre of Farsley."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
         else if team == "FC Halifax Town" {
             stationCode = "HFX"
             stadiumLat = 53.71595
@@ -455,16 +425,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         }
-        else if team == "Oldham Athletic" {
-            stationCode = "MIH"
-            stadiumLat = 53.5543382
-            stadiumLon = -2.1280832
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: OL1 2PA\n\nLeave the M62 at Juntction 20 and take the A627 towards Oldham, then take the second slip road off the A627 following signs to Royton (A663). Turn left at the roundabout towards Royton (A663) then take the next right onto Hilbre Avenue for the ground."
-            teamTrainInfo = "The nearest station, Oldham Mill Hills, is to far to walk so either take a taxi from here or catch a bus from Manchester Piccadilly Bus Station to Oldham. Routes 24, 181, and 182 take around 25 minutes and run past the ground."
-            teamDrinkInfo = "The Clayton Green on Sheepfoot Lane is the closest pub to the ground."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/oldham-athletic/scores-fixtures"
-        }
         else if team == "Oxford City" {
             stationCode = "OXF"
             stadiumLat = 51.77391
@@ -505,16 +465,7 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "The Church Pub on Willbutts Lane is the main away fans pub. At the ground there is also Studds, and The Ratcliffe Arms.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/rochdale/scores-fixtures"
         }
-        else if team == "Rushall Olympic" {
-            stationCode = "XXX"
-            stadiumLat = 0.0
-            stadiumLon = 0.0
-            teamStadiumName = ""
-            teamCarInfo = "ERROR"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
+        
         else if team == "Salisbury" {
             stationCode = "XXX"
             stadiumLat = 0.0
@@ -605,16 +556,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "There is a supporters Marquee behind the North Stand which admits visiting supporters. Otherwise the nearest pub is the Moors Tavern a few minutes’ walk away on Durham Road, towards the town centre.  Further on towards the town centre, on Cheapside, is a Wetherspoons pub."
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         }
-        else if team == "St Albans City" {
-            stationCode = "SAC"
-            stadiumLat = 51.754264
-            stadiumLon = -0.325159
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: AL1 4PL\n\nLeave the M1 at Junction 7 and take the M10 towards St Albans. At the end of the M10, go straight across the first roundabout and at the next roundabout turn left onto the A1081. Continue along the A1081 until you reach a small roundabout, turn right into Alma Road. At the traffic lights turn right into Victoria Street, passing the railway station on your left, and follow the road around to the left. At the next traffic lights go straight on into Clarence Road. A short way up Clarence Road, turn left for the entrance to the Football & Cricket grounds."
-            teamTrainInfo = "Exit the Station on the east side and turn left along Station Way. At the top of the road turn right into Hatfield Road. Walk down to the traffic lights and turn left into Clarence Road, then left again for the ground."
-            teamDrinkInfo = "There is a Club House at the ground which admits away fans. Otherwise the nearest pub to the ground is the Crown, which is a five minute walk away on Clarence Road."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
         else if team == "Sutton United" {
             stationCode = "WSU"
             stadiumLat = 51.36759
@@ -666,16 +607,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
         }
-        else if team == "Warrington Town" {
-            stationCode = "XXX"
-            stadiumLat = 0.0
-            stadiumLon = 0.0
-            teamStadiumName = ""
-            teamCarInfo = "ERROR"
-            teamTrainInfo = "ERROR"
-            teamDrinkInfo = "ERROR"
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
         else if team == "Wealdstone" {
             stationCode = "WRU"
             stadiumLat = 51.569408
@@ -686,16 +617,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "There is a Social Club at the ground that normally admits away fans. Otherwise there is St George's Tavern and JJ Moons on Victoria Road."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/wealdstone/scores-fixtures"
         }
-        else if team == "Welling United" {
-            stationCode = "WLI"
-            stadiumLat = 51.460318
-            stadiumLon = 0.116550
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: DA16 1SY\n\nLeave the M25 at Junction 2 and take the A2 towards Central London. Leave the A2 at the third exit and take the A221 towards Bexleyheath. At the next roundabout turn right and continue towards Bexleyheath. At the next roundabout take the second exit into Danson Road. Follow Danson Road until your reach a T-junction and at these traffic lights turn left into Park View Road. The ground is down on the left."
-            teamTrainInfo = "Exit the Station and walk down the access road, at the bottom turn left into Central Avenue which leads onto a T-Junction with Bellegrove Road. Turn left and walk straight along Bellegrove Road which leads into the High Street. The ground is further down the High Street on the right."
-            teamDrinkInfo = "There is a Social Club at the ground that admits away fans. Otherwise the ‘Guy Earl of Warwick’ is right next to the ground. Further along the High Street there are a number of pubs including the Rose & Crown, the Nag's Head and a Wetherspoons."
-            teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
         else if team == "Weston-super-Mare" {
             stationCode = "XXX"
             stadiumLat = 0.0
@@ -705,16 +626,6 @@ class TeamDetails: NSObject {
             teamTrainInfo = "ERROR"
             teamDrinkInfo = "ERROR"
             teamFixtures = "http://www.thenationalleague.org.uk/match-info/fixtures"
-        }
-        else if team == "Weymouth" {
-            stationCode = "WEY"
-            stadiumLat = 50.619885
-            stadiumLon = -2.484928
-            teamStadiumName = ""
-            teamCarInfo = "Sat Nav Postcode: DT4 9XJ\n\nTake the A354 towards Weymouth, and on entering Weymouth you reach the Veasta Roundabout. Take the second exit, still on the A354, signposted to Portland. At the next roundabout passing a Supermarket on your left take the second exit continuing towards the Town Centre. At the next roundabout take the third exit into Granby Way. At the next roundabout take the third exit (signposted Dorset Police HQ) and then immediately left for the entrance to the ground."
-            teamTrainInfo = "Weymouth Railway Station is just under two miles away from the ground. For weekend games you can catch the No.3 First Bus towards Hereford Road. Get off at Radipole Lane which is a short walk along Radipole Lane to the ground. The bus stop can be found on King Street, otherwise a taxi is the only other option."
-            teamDrinkInfo = "The ‘Terras Tavern' at the ground admits away fans unless segregation is in force. There is not much else near the ground itself, the nearest pub is the ‘John Gregory’ which is half a mile away off the Wessex Roundabout. The only other option is to head into Weymouth Town Centre."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/weymouth/scores-fixtures"
         }
         else if team == "Woking" {
             stationCode = "WOK"
